@@ -1,0 +1,6329 @@
+{
+ "firms": 817,
+ "staff": 50760,
+ "women": 14342,
+ "men": 36418,
+ "share": 28.3,
+ "pt_men": 7.0,
+ "pt_women": 17.8,
+ "pt_ratio": 2.5,
+ "companies": 817,
+ "median_company": 25.8,
+ "records": 2843,
+ "years": [
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "pt_women_of_all": 50.0,
+ "pt_women_count": 2559,
+ "pt_men_count": 2555,
+ "pt_firms": 816,
+ "share_fte": 27.7,
+ "fte_total": 49461,
+ "fte_women": 13683,
+ "fte_gap": 0.6,
+ "fte_per_woman": 0.954,
+ "fte_per_man": 0.982,
+ "grad_series": [
+  {
+   "year": "2005",
+   "women": 293,
+   "total": 2992,
+   "share": 9.8
+  },
+  {
+   "year": "2010",
+   "women": 160,
+   "total": 1850,
+   "share": 8.6
+  },
+  {
+   "year": "2013",
+   "women": 128,
+   "total": 1883,
+   "share": 6.8
+  },
+  {
+   "year": "2014",
+   "women": 143,
+   "total": 1947,
+   "share": 7.3
+  },
+  {
+   "year": "2015",
+   "women": 96,
+   "total": 1229,
+   "share": 7.8
+  },
+  {
+   "year": "2016",
+   "women": 104,
+   "total": 1847,
+   "share": 5.6
+  },
+  {
+   "year": "2017",
+   "women": 212,
+   "total": 2146,
+   "share": 9.9
+  },
+  {
+   "year": "2018",
+   "women": 289,
+   "total": 2454,
+   "share": 11.8
+  },
+  {
+   "year": "2019",
+   "women": 298,
+   "total": 2445,
+   "share": 12.2
+  },
+  {
+   "year": "2020",
+   "women": 380,
+   "total": 2728,
+   "share": 13.9
+  },
+  {
+   "year": "2021",
+   "women": 444,
+   "total": 3469,
+   "share": 12.8
+  },
+  {
+   "year": "2022",
+   "women": 496,
+   "total": 3652,
+   "share": 13.6
+  },
+  {
+   "year": "2023",
+   "women": 579,
+   "total": 3796,
+   "share": 15.3
+  },
+  {
+   "year": "2024",
+   "women": 643,
+   "total": 4324,
+   "share": 14.9
+  }
+ ],
+ "grad_run": [
+  {
+   "year": "2017",
+   "women": 212,
+   "total": 2146,
+   "share": 9.9
+  },
+  {
+   "year": "2018",
+   "women": 289,
+   "total": 2454,
+   "share": 11.8
+  },
+  {
+   "year": "2019",
+   "women": 298,
+   "total": 2445,
+   "share": 12.2
+  },
+  {
+   "year": "2020",
+   "women": 380,
+   "total": 2728,
+   "share": 13.9
+  },
+  {
+   "year": "2021",
+   "women": 444,
+   "total": 3469,
+   "share": 12.8
+  },
+  {
+   "year": "2022",
+   "women": 496,
+   "total": 3652,
+   "share": 13.6
+  },
+  {
+   "year": "2023",
+   "women": 579,
+   "total": 3796,
+   "share": 15.3
+  },
+  {
+   "year": "2024",
+   "women": 643,
+   "total": 4324,
+   "share": 14.9
+  }
+ ],
+ "grad_from": {
+  "year": "2017",
+  "women": 212,
+  "total": 2146,
+  "share": 9.9
+ },
+ "grad_latest": {
+  "year": "2024",
+  "women": 643,
+  "total": 4324,
+  "share": 14.9
+ },
+ "grad_all_fields": 58.9,
+ "grad_countries": [
+  {
+   "geo": "SE",
+   "label": "Sweden",
+   "share": 36.1,
+   "total": 7377
+  },
+  {
+   "geo": "IE",
+   "label": "Ireland",
+   "share": 34.2,
+   "total": 8404
+  },
+  {
+   "geo": "FI",
+   "label": "Finland",
+   "share": 29.1,
+   "total": 6396
+  },
+  {
+   "geo": "DE",
+   "label": "Germany",
+   "share": 23.8,
+   "total": 39598
+  },
+  {
+   "geo": "PL",
+   "label": "Poland",
+   "share": 22.3,
+   "total": 20677
+  },
+  {
+   "geo": "EU27_2020",
+   "label": "European Union - 27 countries (from 2020)",
+   "share": 22.1,
+   "total": 223623
+  },
+  {
+   "geo": "NL",
+   "label": "Netherlands",
+   "share": 21.5,
+   "total": 9326
+  },
+  {
+   "geo": "LU",
+   "label": "Luxembourg",
+   "share": 20.4,
+   "total": 191
+  },
+  {
+   "geo": "FR",
+   "label": "France",
+   "share": 19.3,
+   "total": 35543
+  },
+  {
+   "geo": "IT",
+   "label": "Italy",
+   "share": 18.2,
+   "total": 8787
+  },
+  {
+   "geo": "BE",
+   "label": "Belgium",
+   "share": 14.9,
+   "total": 4324
+  },
+  {
+   "geo": "ES",
+   "label": "Spain",
+   "share": 14.4,
+   "total": 37183
+  }
+ ],
+ "spec_series": [
+  {
+   "year": "2015",
+   "share": 15.1
+  },
+  {
+   "year": "2016",
+   "share": 14.1
+  },
+  {
+   "year": "2017",
+   "share": 15.6
+  },
+  {
+   "year": "2018",
+   "share": 16.8
+  },
+  {
+   "year": "2019",
+   "share": 17.2
+  },
+  {
+   "year": "2020",
+   "share": 17.4
+  },
+  {
+   "year": "2021",
+   "share": 19.6
+  },
+  {
+   "year": "2022",
+   "share": 18.7
+  },
+  {
+   "year": "2023",
+   "share": 19.4
+  },
+  {
+   "year": "2024",
+   "share": 19.0
+  },
+  {
+   "year": "2025",
+   "share": 17.6
+  }
+ ],
+ "spec_latest": {
+  "year": "2025",
+  "share": 17.6
+ },
+ "emp_series": [
+  {
+   "year": "2021",
+   "share": 28.2,
+   "firms": 457,
+   "women": 7396,
+   "men": 18786
+  },
+  {
+   "year": "2022",
+   "share": 28.2,
+   "firms": 609,
+   "women": 11433,
+   "men": 29067
+  },
+  {
+   "year": "2023",
+   "share": 28.5,
+   "firms": 628,
+   "women": 12683,
+   "men": 31834
+  },
+  {
+   "year": "2024",
+   "share": 28.3,
+   "firms": 600,
+   "women": 12291,
+   "men": 31080
+  },
+  {
+   "year": "2025",
+   "share": 28.5,
+   "firms": 549,
+   "women": 12077,
+   "men": 30233
+  }
+ ],
+ "panel": {
+  "firms": 299,
+  "from": "2021",
+  "to": "2025",
+  "share0": 28.5,
+  "share1": 30.0,
+  "women0": 5932,
+  "women1": 6792,
+  "men0": 14850,
+  "men1": 15865,
+  "delta": 1.5,
+  "d_women": 860,
+  "d_men": 1015,
+  "women_of_growth": 45.9,
+  "per_year": 0.38,
+  "span": 4,
+  "years_to_parity": 53
+ },
+ "grad_rate": {
+  "from": "2017",
+  "to": "2024",
+  "span": 7,
+  "delta": 5.0,
+  "per_year": 0.71,
+  "women0": 212,
+  "women1": 643,
+  "total0": 2146,
+  "total1": 4324,
+  "times": 3.0,
+  "per_year_2021": 0.7,
+  "share_2021": 12.8
+ },
+ "speed_ratio": 1.8,
+ "dist": [
+  {
+   "lo": 0,
+   "n": 40
+  },
+  {
+   "lo": 5,
+   "n": 51
+  },
+  {
+   "lo": 10,
+   "n": 69
+  },
+  {
+   "lo": 15,
+   "n": 103
+  },
+  {
+   "lo": 20,
+   "n": 107
+  },
+  {
+   "lo": 25,
+   "n": 111
+  },
+  {
+   "lo": 30,
+   "n": 70
+  },
+  {
+   "lo": 35,
+   "n": 60
+  },
+  {
+   "lo": 40,
+   "n": 58
+  },
+  {
+   "lo": 45,
+   "n": 28
+  },
+  {
+   "lo": 50,
+   "n": 35
+  },
+  {
+   "lo": 55,
+   "n": 19
+  },
+  {
+   "lo": 60,
+   "n": 25
+  },
+  {
+   "lo": 65,
+   "n": 17
+  },
+  {
+   "lo": 70,
+   "n": 11
+  },
+  {
+   "lo": 75,
+   "n": 2
+  },
+  {
+   "lo": 80,
+   "n": 6
+  },
+  {
+   "lo": 85,
+   "n": 2
+  },
+  {
+   "lo": 90,
+   "n": 1
+  },
+  {
+   "lo": 95,
+   "n": 2
+  }
+ ],
+ "zero_women": 33,
+ "zero_women_staff": 509,
+ "under10": 91,
+ "at_parity": 120,
+ "above60": 56,
+ "parity_staff": 2844,
+ "parity_median_hc": 16,
+ "all_median_hc": 21,
+ "q1": 17.2,
+ "q3": 40.0,
+ "cluster_lo": 10,
+ "cluster_hi": 40,
+ "cluster_n": 536,
+ "cluster_pc": 66,
+ "half_women_firms": 40,
+ "sectors": [
+  {
+   "firms": 80,
+   "staff": 6990,
+   "women": 2056,
+   "men": 4934,
+   "share": 29.4,
+   "median": 33.0,
+   "pt_men": 7.3,
+   "pt_women": 20.6,
+   "pt_ratio": 2.8,
+   "med_evo": -0.4,
+   "n_evo": 73,
+   "div": "63",
+   "label": "Information services",
+   "label_fr": "Services d'information"
+  },
+  {
+   "firms": 62,
+   "staff": 6725,
+   "women": 1933,
+   "men": 4792,
+   "share": 28.7,
+   "median": 27.1,
+   "pt_men": 5.9,
+   "pt_women": 18.5,
+   "pt_ratio": 3.1,
+   "med_evo": 0.9,
+   "n_evo": 56,
+   "div": "61",
+   "label": "Telecommunications",
+   "label_fr": "Télécommunications"
+  },
+  {
+   "firms": 604,
+   "staff": 30780,
+   "women": 8718,
+   "men": 22062,
+   "share": 28.3,
+   "median": 25.0,
+   "pt_men": 6.5,
+   "pt_women": 16.2,
+   "pt_ratio": 2.5,
+   "med_evo": 0.9,
+   "n_evo": 519,
+   "div": "62",
+   "label": "Programming & consultancy",
+   "label_fr": "Programmation et conseil"
+  },
+  {
+   "firms": 5,
+   "staff": 1559,
+   "women": 440,
+   "men": 1119,
+   "share": 28.2,
+   "median": 19.3,
+   "pt_men": 12.2,
+   "pt_women": 26.1,
+   "pt_ratio": 2.2,
+   "med_evo": 0.9,
+   "n_evo": 5,
+   "div": "keep",
+   "label": "Added by hand",
+   "label_fr": "Ajoutées à la main"
+  },
+  {
+   "firms": 25,
+   "staff": 2427,
+   "women": 658,
+   "men": 1769,
+   "share": 27.1,
+   "median": 27.6,
+   "pt_men": 10.6,
+   "pt_women": 16.7,
+   "pt_ratio": 1.6,
+   "med_evo": 4.2,
+   "n_evo": 20,
+   "div": "58",
+   "label": "Software publishing",
+   "label_fr": "Édition de logiciels"
+  },
+  {
+   "firms": 41,
+   "staff": 2279,
+   "women": 537,
+   "men": 1742,
+   "share": 23.6,
+   "median": 23.5,
+   "pt_men": 9.1,
+   "pt_women": 26.3,
+   "pt_ratio": 2.9,
+   "med_evo": 1.4,
+   "n_evo": 38,
+   "div": "26",
+   "label": "Electronics manufacturing",
+   "label_fr": "Fabrication électronique"
+  }
+ ],
+ "sector_spread": 5.8,
+ "sector_top": {
+  "firms": 80,
+  "staff": 6990,
+  "women": 2056,
+  "men": 4934,
+  "share": 29.4,
+  "median": 33.0,
+  "pt_men": 7.3,
+  "pt_women": 20.6,
+  "pt_ratio": 2.8,
+  "med_evo": -0.4,
+  "n_evo": 73,
+  "div": "63",
+  "label": "Information services",
+  "label_fr": "Services d'information"
+ },
+ "sector_bottom": {
+  "firms": 41,
+  "staff": 2279,
+  "women": 537,
+  "men": 1742,
+  "share": 23.6,
+  "median": 23.5,
+  "pt_men": 9.1,
+  "pt_women": 26.3,
+  "pt_ratio": 2.9,
+  "med_evo": 1.4,
+  "n_evo": 38,
+  "div": "26",
+  "label": "Electronics manufacturing",
+  "label_fr": "Fabrication électronique"
+ },
+ "sector_worst_evo": {
+  "firms": 80,
+  "staff": 6990,
+  "women": 2056,
+  "men": 4934,
+  "share": 29.4,
+  "median": 33.0,
+  "pt_men": 7.3,
+  "pt_women": 20.6,
+  "pt_ratio": 2.8,
+  "med_evo": -0.4,
+  "n_evo": 73,
+  "div": "63",
+  "label": "Information services",
+  "label_fr": "Services d'information"
+ },
+ "sector_best_evo": {
+  "firms": 25,
+  "staff": 2427,
+  "women": 658,
+  "men": 1769,
+  "share": 27.1,
+  "median": 27.6,
+  "pt_men": 10.6,
+  "pt_women": 16.7,
+  "pt_ratio": 1.6,
+  "med_evo": 4.2,
+  "n_evo": 20,
+  "div": "58",
+  "label": "Software publishing",
+  "label_fr": "Édition de logiciels"
+ },
+ "sectors_old": [
+  {
+   "div": "00",
+   "firms": 5,
+   "share": 28.2
+  },
+  {
+   "div": "26",
+   "firms": 41,
+   "share": 23.6
+  },
+  {
+   "div": "58",
+   "firms": 25,
+   "share": 27.1
+  },
+  {
+   "div": "61",
+   "firms": 62,
+   "share": 28.7
+  },
+  {
+   "div": "62",
+   "firms": 604,
+   "share": 28.3
+  },
+  {
+   "div": "63",
+   "firms": 80,
+   "share": 29.4
+  }
+ ],
+ "sizes": [
+  {
+   "firms": 643,
+   "staff": 13312,
+   "women": 3985,
+   "men": 9327,
+   "share": 29.9,
+   "median": 26.2,
+   "pt_men": 7.8,
+   "pt_women": 20.9,
+   "pt_ratio": 2.7,
+   "med_evo": 0.6,
+   "n_evo": 540,
+   "band": "10-49"
+  },
+  {
+   "firms": 138,
+   "staff": 14016,
+   "women": 3616,
+   "men": 10400,
+   "share": 25.8,
+   "median": 24.4,
+   "pt_men": 6.7,
+   "pt_women": 17.1,
+   "pt_ratio": 2.5,
+   "med_evo": 1.4,
+   "n_evo": 136,
+   "band": "50-249"
+  },
+  {
+   "firms": 36,
+   "staff": 23432,
+   "women": 6741,
+   "men": 16691,
+   "share": 28.8,
+   "median": 26.9,
+   "pt_men": 6.8,
+   "pt_women": 16.4,
+   "pt_ratio": 2.4,
+   "med_evo": 0.5,
+   "n_evo": 35,
+   "band": "250+"
+  }
+ ],
+ "size_spread": 4.1,
+ "with_history": 711,
+ "median_evolution": 0.8,
+ "rose": 397,
+ "fell": 272,
+ "evo_bins": [
+  {
+   "lo": -999,
+   "hi": -10,
+   "label": "fell more than 10",
+   "n": 59
+  },
+  {
+   "lo": -10,
+   "hi": -5,
+   "label": "fell 5 to 10",
+   "n": 73
+  },
+  {
+   "lo": -5,
+   "hi": -2,
+   "label": "fell 2 to 5",
+   "n": 75
+  },
+  {
+   "lo": -2,
+   "hi": 2,
+   "label": "within 2 either way",
+   "n": 198
+  },
+  {
+   "lo": 2,
+   "hi": 5,
+   "label": "rose 2 to 5",
+   "n": 103
+  },
+  {
+   "lo": 5,
+   "hi": 10,
+   "label": "rose 5 to 10",
+   "n": 103
+  },
+  {
+   "lo": 10,
+   "hi": 999,
+   "label": "rose more than 10",
+   "n": 100
+  }
+ ],
+ "evo_within2": 201,
+ "evo_within5": 381,
+ "mech_flat": [
+  {
+   "name": "Projective Group Talent BE",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 35,
+   "w1": 31,
+   "m0": 88,
+   "m1": 41,
+   "s0": 28.5,
+   "s1": 43.1,
+   "evo": 14.6,
+   "hc": 72,
+   "dw": -4,
+   "dm": -47
+  },
+  {
+   "name": "ADM Village n°1 Entreprise",
+   "y0": "2022",
+   "y1": "2025",
+   "w0": 18,
+   "w1": 14,
+   "m0": 17,
+   "m1": 8,
+   "s0": 51.4,
+   "s1": 63.6,
+   "evo": 12.2,
+   "hc": 22,
+   "dw": -4,
+   "dm": -9
+  },
+  {
+   "name": "GENESIS CONSULT",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 19,
+   "w1": 19,
+   "m0": 54,
+   "m1": 32,
+   "s0": 26.0,
+   "s1": 37.3,
+   "evo": 11.3,
+   "hc": 51,
+   "dw": 0,
+   "dm": -22
+  },
+  {
+   "name": "UNISYS CONSULTING",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 28,
+   "w1": 23,
+   "m0": 35,
+   "m1": 20,
+   "s0": 44.4,
+   "s1": 53.5,
+   "evo": 9.1,
+   "hc": 43,
+   "dw": -5,
+   "dm": -15
+  },
+  {
+   "name": "SoundTalks",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 10,
+   "w1": 7,
+   "m0": 30,
+   "m1": 14,
+   "s0": 25.0,
+   "s1": 33.3,
+   "evo": 8.3,
+   "hc": 21,
+   "dw": -3,
+   "dm": -16
+  },
+  {
+   "name": "NEXEO BELGIUM",
+   "y0": "2021",
+   "y1": "2024",
+   "w0": 27,
+   "w1": 21,
+   "m0": 10,
+   "m1": 5,
+   "s0": 73.0,
+   "s1": 80.8,
+   "evo": 7.8,
+   "hc": 26,
+   "dw": -6,
+   "dm": -5
+  }
+ ],
+ "mech_fell": [
+  {
+   "name": "TRUSTTEAM WALLONIE",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 10,
+   "w1": 13,
+   "m0": 23,
+   "m1": 71,
+   "s0": 30.3,
+   "s1": 15.5,
+   "evo": -14.8,
+   "hc": 84,
+   "dw": 3,
+   "dm": 48
+  },
+  {
+   "name": "Cronos Europa",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 33,
+   "w1": 166,
+   "m0": 22,
+   "m1": 178,
+   "s0": 60.0,
+   "s1": 48.3,
+   "evo": -11.7,
+   "hc": 344,
+   "dw": 133,
+   "dm": 156
+  },
+  {
+   "name": "Fresh Chef",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 16,
+   "w1": 17,
+   "m0": 25,
+   "m1": 35,
+   "s0": 39.0,
+   "s1": 32.7,
+   "evo": -6.3,
+   "hc": 52,
+   "dw": 1,
+   "dm": 10
+  },
+  {
+   "name": "GuardSquare",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 18,
+   "w1": 22,
+   "m0": 50,
+   "m1": 84,
+   "s0": 26.5,
+   "s1": 20.8,
+   "evo": -5.7,
+   "hc": 106,
+   "dw": 4,
+   "dm": 34
+  },
+  {
+   "name": "MyData-TRUST",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 28,
+   "w1": 34,
+   "m0": 13,
+   "m1": 20,
+   "s0": 68.3,
+   "s1": 63.0,
+   "evo": -5.3,
+   "hc": 54,
+   "dw": 6,
+   "dm": 7
+  },
+  {
+   "name": "ODOO",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 263,
+   "w1": 390,
+   "m0": 538,
+   "m1": 1025,
+   "s0": 32.8,
+   "s1": 27.6,
+   "evo": -5.2,
+   "hc": 1415,
+   "dw": 127,
+   "dm": 487
+  }
+ ],
+ "mech_hired": [
+  {
+   "name": "Sopra Steria Belgium",
+   "y0": "2022",
+   "y1": "2025",
+   "w0": 105,
+   "w1": 429,
+   "m0": 363,
+   "m1": 1257,
+   "s0": 22.4,
+   "s1": 25.4,
+   "evo": 3.0,
+   "hc": 1686,
+   "dw": 324,
+   "dm": 894
+  },
+  {
+   "name": "CAPGEMINI BELGIUM",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 340,
+   "w1": 553,
+   "m0": 999,
+   "m1": 1219,
+   "s0": 25.4,
+   "s1": 31.2,
+   "evo": 5.8,
+   "hc": 1772,
+   "dw": 213,
+   "dm": 220
+  },
+  {
+   "name": "Stellantis e-Transmissions",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 11,
+   "w1": 78,
+   "m0": 178,
+   "m1": 499,
+   "s0": 5.8,
+   "s1": 13.5,
+   "evo": 7.7,
+   "hc": 577,
+   "dw": 67,
+   "dm": 321
+  },
+  {
+   "name": "ALTEN Belgium",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 224,
+   "w1": 287,
+   "m0": 487,
+   "m1": 400,
+   "s0": 31.5,
+   "s1": 41.8,
+   "evo": 10.3,
+   "hc": 687,
+   "dw": 63,
+   "dm": -87
+  },
+  {
+   "name": "Enovalife",
+   "y0": "2021",
+   "y1": "2024",
+   "w0": 69,
+   "w1": 115,
+   "m0": 57,
+   "m1": 58,
+   "s0": 54.8,
+   "s1": 66.5,
+   "evo": 11.7,
+   "hc": 173,
+   "dw": 46,
+   "dm": 1
+  },
+  {
+   "name": "Mastercard Europe",
+   "y0": "2021",
+   "y1": "2025",
+   "w0": 215,
+   "w1": 259,
+   "m0": 272,
+   "m1": 296,
+   "s0": 44.1,
+   "s1": 46.7,
+   "evo": 2.6,
+   "hc": 555,
+   "dw": 44,
+   "dm": 24
+  }
+ ],
+ "mech_counts": {
+  "flat": 80,
+  "fell": 43,
+  "hired": 67
+ },
+ "ex_flat": {
+  "name": "Projective Group Talent BE",
+  "y0": "2021",
+  "y1": "2025",
+  "w0": 35,
+  "w1": 31,
+  "m0": 88,
+  "m1": 41,
+  "s0": 28.5,
+  "s1": 43.1,
+  "evo": 14.6,
+  "hc": 72,
+  "dw": -4,
+  "dm": -47
+ },
+ "ex_fell": {
+  "name": "Cronos Europa",
+  "y0": "2021",
+  "y1": "2025",
+  "w0": 33,
+  "w1": 166,
+  "m0": 22,
+  "m1": 178,
+  "s0": 60.0,
+  "s1": 48.3,
+  "evo": -11.7,
+  "hc": 344,
+  "dw": 133,
+  "dm": 156
+ },
+ "ex_hired": {
+  "name": "Sopra Steria Belgium",
+  "y0": "2022",
+  "y1": "2025",
+  "w0": 105,
+  "w1": 429,
+  "m0": 363,
+  "m1": 1257,
+  "s0": 22.4,
+  "s1": 25.4,
+  "evo": 3.0,
+  "hc": 1686,
+  "dw": 324,
+  "dm": 894
+ },
+ "largest": [
+  {
+   "name": "ORANGE BELGIUM",
+   "hc": 2367,
+   "share": 33.0,
+   "sector": "Telecommunications"
+  },
+  {
+   "name": "SMALS",
+   "hc": 2350,
+   "share": 26.5,
+   "sector": "Information services"
+  },
+  {
+   "name": "CAPGEMINI BELGIUM",
+   "hc": 1772,
+   "share": 31.2,
+   "sector": "Programming & consultancy"
+  },
+  {
+   "name": "Sopra Steria Belgium",
+   "hc": 1686,
+   "share": 25.4,
+   "sector": "Programming & consultancy"
+  },
+  {
+   "name": "ODOO",
+   "hc": 1415,
+   "share": 27.6,
+   "sector": "Software publishing"
+  },
+  {
+   "name": "SOCIETY FOR WORLDWIDE INTERBANK FINANCIAL TELECOMMUNICATION",
+   "hc": 1040,
+   "share": 35.2,
+   "sector": "Telecommunications"
+  },
+  {
+   "name": "EGOV SELECT",
+   "hc": 980,
+   "share": 18.3,
+   "sector": "Information services"
+  },
+  {
+   "name": "ALTEN Belgium",
+   "hc": 687,
+   "share": 41.8,
+   "sector": "Programming & consultancy"
+  },
+  {
+   "name": "IRISteam",
+   "hc": 634,
+   "share": 26.7,
+   "sector": "Programming & consultancy"
+  },
+  {
+   "name": "MATERIALISE",
+   "hc": 628,
+   "share": 41.1,
+   "sector": "Added by hand"
+  },
+  {
+   "name": "Stellantis e-Transmissions",
+   "hc": 577,
+   "share": 13.5,
+   "sector": "Electronics manufacturing"
+  },
+  {
+   "name": "Mastercard Europe",
+   "hc": 555,
+   "share": 46.7,
+   "sector": "Programming & consultancy"
+  }
+ ],
+ "sizeable_n": 90,
+ "best": [
+  {
+   "name": "Enovalife",
+   "hc": 173,
+   "share": 66.5
+  },
+  {
+   "name": "CONNECT GROUP",
+   "hc": 225,
+   "share": 52.0
+  },
+  {
+   "name": "Cronos Europa",
+   "hc": 344,
+   "share": 48.3
+  },
+  {
+   "name": "Mastercard Europe",
+   "hc": 555,
+   "share": 46.7
+  },
+  {
+   "name": "PITS",
+   "hc": 105,
+   "share": 45.7
+  },
+  {
+   "name": "DIGI Communications Belgium",
+   "hc": 112,
+   "share": 43.8
+  }
+ ],
+ "worst": [
+  {
+   "name": "STEFANINI",
+   "hc": 137,
+   "share": 10.9
+  },
+  {
+   "name": "DILACO",
+   "hc": 116,
+   "share": 11.2
+  },
+  {
+   "name": "Cennox Managed Services",
+   "hc": 152,
+   "share": 11.2
+  },
+  {
+   "name": "Simac",
+   "hc": 170,
+   "share": 11.2
+  },
+  {
+   "name": "CEGELEC INFRA TECHNICS",
+   "hc": 268,
+   "share": 11.2
+  },
+  {
+   "name": "NVISO Belgium",
+   "hc": 104,
+   "share": 11.5
+  }
+ ],
+ "widest_gap": [
+  {
+   "name": "Simac",
+   "hc": 170,
+   "mpt": 11.3,
+   "wpt": 47.4,
+   "gap": 36.1
+  },
+  {
+   "name": "Securex ICT",
+   "hc": 120,
+   "mpt": 14.1,
+   "wpt": 45.7,
+   "gap": 31.6
+  },
+  {
+   "name": "CONNECT GROUP",
+   "hc": 225,
+   "mpt": 13.0,
+   "wpt": 42.7,
+   "gap": 29.8
+  },
+  {
+   "name": "A.S.T.R.I.D.",
+   "hc": 141,
+   "mpt": 7.6,
+   "wpt": 30.4,
+   "gap": 22.8
+  },
+  {
+   "name": "ZORGI",
+   "hc": 335,
+   "mpt": 12.6,
+   "wpt": 35.2,
+   "gap": 22.6
+  },
+  {
+   "name": "RANDSTAD DIGITAL BELGIUM",
+   "hc": 335,
+   "mpt": 7.1,
+   "wpt": 29.4,
+   "gap": 22.3
+  }
+ ],
+ "points": [
+  {
+   "n": "ORANGE BELGIUM",
+   "s": 33.0,
+   "h": 2367,
+   "d": "61"
+  },
+  {
+   "n": "SMALS",
+   "s": 26.5,
+   "h": 2350,
+   "d": "63"
+  },
+  {
+   "n": "CAPGEMINI BELGIUM",
+   "s": 31.2,
+   "h": 1772,
+   "d": "62"
+  },
+  {
+   "n": "Sopra Steria Belgium",
+   "s": 25.4,
+   "h": 1686,
+   "d": "62"
+  },
+  {
+   "n": "ODOO",
+   "s": 27.6,
+   "h": 1415,
+   "d": "58"
+  },
+  {
+   "n": "SOCIETY FOR WORLDWIDE INTERBANK FINANCIAL TELECOMMUNICATION",
+   "s": 35.2,
+   "h": 1040,
+   "d": "61"
+  },
+  {
+   "n": "EGOV SELECT",
+   "s": 18.3,
+   "h": 980,
+   "d": "63"
+  },
+  {
+   "n": "ALTEN Belgium",
+   "s": 41.8,
+   "h": 687,
+   "d": "62"
+  },
+  {
+   "n": "IRISteam",
+   "s": 26.7,
+   "h": 634,
+   "d": "62"
+  },
+  {
+   "n": "MATERIALISE",
+   "s": 41.1,
+   "h": 628,
+   "d": "keep"
+  },
+  {
+   "n": "Stellantis e-Transmissions",
+   "s": 13.5,
+   "h": 577,
+   "d": "26"
+  },
+  {
+   "n": "Mastercard Europe",
+   "s": 46.7,
+   "h": 555,
+   "d": "62"
+  },
+  {
+   "n": "WORLDLINE",
+   "s": 38.6,
+   "h": 539,
+   "d": "63"
+  },
+  {
+   "n": "EASI",
+   "s": 22.0,
+   "h": 536,
+   "d": "62"
+  },
+  {
+   "n": "MICROSOFT",
+   "s": 32.9,
+   "h": 529,
+   "d": "62"
+  },
+  {
+   "n": "SIEMENS INDUSTRY SOFTWARE",
+   "s": 19.3,
+   "h": 503,
+   "d": "keep"
+  },
+  {
+   "n": "Proximus NXT IT",
+   "s": 24.4,
+   "h": 501,
+   "d": "61"
+  },
+  {
+   "n": "YPTO",
+   "s": 25.6,
+   "h": 476,
+   "d": "62"
+  },
+  {
+   "n": "ZETES",
+   "s": 20.5,
+   "h": 366,
+   "d": "keep"
+  },
+  {
+   "n": "AE",
+   "s": 26.0,
+   "h": 350,
+   "d": "62"
+  },
+  {
+   "n": "Cronos Europa",
+   "s": 48.3,
+   "h": 344,
+   "d": "62"
+  },
+  {
+   "n": "Eviden Belgium",
+   "s": 20.5,
+   "h": 341,
+   "d": "62"
+  },
+  {
+   "n": "Belgacom International Carrier Services",
+   "s": 35.0,
+   "h": 340,
+   "d": "61"
+  },
+  {
+   "n": "ZORGI",
+   "s": 38.2,
+   "h": 335,
+   "d": "62"
+  },
+  {
+   "n": "RANDSTAD DIGITAL BELGIUM",
+   "s": 20.3,
+   "h": 335,
+   "d": "62"
+  },
+  {
+   "n": "Netcompany SA",
+   "s": 40.9,
+   "h": 335,
+   "d": "62"
+  },
+  {
+   "n": "DEVOTEAM",
+   "s": 14.2,
+   "h": 323,
+   "d": "62"
+  },
+  {
+   "n": "SBS SOFTWARE BELGIUM",
+   "s": 14.6,
+   "h": 314,
+   "d": "58"
+  },
+  {
+   "n": "Cisco Systems Belgium",
+   "s": 20.7,
+   "h": 314,
+   "d": "62"
+  },
+  {
+   "n": "SAP BELGIUM - SYSTEMS APPLICATIONS AND PRODUCTS",
+   "s": 29.8,
+   "h": 309,
+   "d": "63"
+  },
+  {
+   "n": "Collaboration Betters The World",
+   "s": 34.2,
+   "h": 292,
+   "d": "62"
+  },
+  {
+   "n": "ORANGE BUSINESS DIGITAL BELGIUM",
+   "s": 29.3,
+   "h": 287,
+   "d": "62"
+  },
+  {
+   "n": "COMPUTER TASK GROUP BELGIUM",
+   "s": 27.0,
+   "h": 281,
+   "d": "62"
+  },
+  {
+   "n": "CEGELEC INFRA TECHNICS",
+   "s": 11.2,
+   "h": 268,
+   "d": "61"
+  },
+  {
+   "n": "Hitachi Energy Belgium",
+   "s": 15.5,
+   "h": 265,
+   "d": "26"
+  },
+  {
+   "n": "Bureau van Dijk  Editions Electroniques",
+   "s": 36.8,
+   "h": 258,
+   "d": "62"
+  },
+  {
+   "n": "ARHS Developments Belgium",
+   "s": 32.1,
+   "h": 243,
+   "d": "62"
+  },
+  {
+   "n": "AEROSPACELAB",
+   "s": 12.1,
+   "h": 240,
+   "d": "62"
+  },
+  {
+   "n": "COGNIZANT TECHNOLOGY SOLUTIONS BELGIUM",
+   "s": 20.7,
+   "h": 232,
+   "d": "62"
+  },
+  {
+   "n": "Atos Belgium",
+   "s": 19.5,
+   "h": 231,
+   "d": "62"
+  },
+  {
+   "n": "CONNECT GROUP",
+   "s": 52.0,
+   "h": 225,
+   "d": "26"
+  },
+  {
+   "n": "Worldline e-Commerce Solutions",
+   "s": 27.9,
+   "h": 219,
+   "d": "62"
+  },
+  {
+   "n": "COMPUTACENTER",
+   "s": 17.2,
+   "h": 215,
+   "d": "62"
+  },
+  {
+   "n": "ECONOCOM MANAGED SERVICES",
+   "s": 19.4,
+   "h": 211,
+   "d": "62"
+  },
+  {
+   "n": "Tata Consultancy Services Belgium",
+   "s": 21.1,
+   "h": 209,
+   "d": "62"
+  },
+  {
+   "n": "FUJITSU TECHNOLOGY SOLUTIONS",
+   "s": 27.9,
+   "h": 204,
+   "d": "62"
+  },
+  {
+   "n": "KONICA MINOLTA BUSINESS SOLUTIONS (BELGIUM) N.V./S.A.",
+   "s": 22.5,
+   "h": 200,
+   "d": "62"
+  },
+  {
+   "n": "HCL Technologies Belgium",
+   "s": 13.5,
+   "h": 185,
+   "d": "62"
+  },
+  {
+   "n": "i-City",
+   "s": 24.7,
+   "h": 178,
+   "d": "62"
+  },
+  {
+   "n": "ORACLE BELGIUM",
+   "s": 28.8,
+   "h": 177,
+   "d": "62"
+  },
+  {
+   "n": "Enovalife",
+   "s": 66.5,
+   "h": 173,
+   "d": "62"
+  },
+  {
+   "n": "Simac",
+   "s": 11.2,
+   "h": 170,
+   "d": "61"
+  },
+  {
+   "n": "Kyndryl Belgium",
+   "s": 18.2,
+   "h": 170,
+   "d": "63"
+  },
+  {
+   "n": "PROXIMEDIA",
+   "s": 41.3,
+   "h": 167,
+   "d": "63"
+  },
+  {
+   "n": "SERCO BELGIUM",
+   "s": 38.9,
+   "h": 167,
+   "d": "62"
+  },
+  {
+   "n": "ISABEL",
+   "s": 26.7,
+   "h": 165,
+   "d": "62"
+  },
+  {
+   "n": "n-Side",
+   "s": 38.2,
+   "h": 165,
+   "d": "58"
+  },
+  {
+   "n": "InSky",
+   "s": 12.6,
+   "h": 159,
+   "d": "63"
+  },
+  {
+   "n": "Cennox Managed Services",
+   "s": 11.2,
+   "h": 152,
+   "d": "62"
+  },
+  {
+   "n": "Sony Depthsensing Solutions",
+   "s": 12.1,
+   "h": 149,
+   "d": "62"
+  },
+  {
+   "n": "DIEBOLD NIXDORF",
+   "s": 11.7,
+   "h": 145,
+   "d": "62"
+  },
+  {
+   "n": "EXACT SOFTWARE BELGIUM",
+   "s": 31.7,
+   "h": 142,
+   "d": "62"
+  },
+  {
+   "n": "Collibra Belgium",
+   "s": 17.6,
+   "h": 142,
+   "d": "62"
+  },
+  {
+   "n": "A.S.T.R.I.D.",
+   "s": 16.3,
+   "h": 141,
+   "d": "61"
+  },
+  {
+   "n": "GOOGLE BELGIUM",
+   "s": 37.9,
+   "h": 140,
+   "d": "62"
+  },
+  {
+   "n": "MEDIAGENIX",
+   "s": 25.2,
+   "h": 139,
+   "d": "62"
+  },
+  {
+   "n": "STEFANINI",
+   "s": 10.9,
+   "h": 137,
+   "d": "61"
+  },
+  {
+   "n": "SOA PEOPLE",
+   "s": 26.7,
+   "h": 135,
+   "d": "62"
+  },
+  {
+   "n": "ORANGE BUSINESS BELGIUM",
+   "s": 27.3,
+   "h": 132,
+   "d": "63"
+  },
+  {
+   "n": "EFOR BELGIUM",
+   "s": 37.1,
+   "h": 132,
+   "d": "62"
+  },
+  {
+   "n": "Dstny BE",
+   "s": 17.6,
+   "h": 131,
+   "d": "61"
+  },
+  {
+   "n": "BT Global Services Belgium",
+   "s": 20.6,
+   "h": 126,
+   "d": "61"
+  },
+  {
+   "n": "HP Belgium",
+   "s": 33.9,
+   "h": 124,
+   "d": "62"
+  },
+  {
+   "n": "Securex ICT",
+   "s": 29.2,
+   "h": 120,
+   "d": "62"
+  },
+  {
+   "n": "Brayton Global",
+   "s": 18.5,
+   "h": 119,
+   "d": "62"
+  },
+  {
+   "n": "DILACO",
+   "s": 11.2,
+   "h": 116,
+   "d": "62"
+  },
+  {
+   "n": "CGI Belgium",
+   "s": 20.4,
+   "h": 113,
+   "d": "62"
+  },
+  {
+   "n": "CLEAR2PAY BELGIUM",
+   "s": 26.8,
+   "h": 112,
+   "d": "62"
+  },
+  {
+   "n": "Ernst  & Young Advisory Services",
+   "s": 27.7,
+   "h": 112,
+   "d": "62"
+  },
+  {
+   "n": "DIGI Communications Belgium",
+   "s": 43.8,
+   "h": 112,
+   "d": "61"
+  },
+  {
+   "n": "DATAROOTS",
+   "s": 25.5,
+   "h": 110,
+   "d": "62"
+  },
+  {
+   "n": "MOONGY",
+   "s": 15.6,
+   "h": 109,
+   "d": "62"
+  },
+  {
+   "n": "AXA GROUP OPERATIONS BELGIUM",
+   "s": 19.3,
+   "h": 109,
+   "d": "62"
+  },
+  {
+   "n": "GuardSquare",
+   "s": 20.8,
+   "h": 106,
+   "d": "62"
+  },
+  {
+   "n": "MWingz",
+   "s": 18.9,
+   "h": 106,
+   "d": "62"
+  },
+  {
+   "n": "PITS",
+   "s": 45.7,
+   "h": 105,
+   "d": "26"
+  },
+  {
+   "n": "PORTIMA",
+   "s": 30.8,
+   "h": 104,
+   "d": "63"
+  },
+  {
+   "n": "AMADEUS BENELUX",
+   "s": 32.7,
+   "h": 104,
+   "d": "63"
+  },
+  {
+   "n": "Amexio Belgium",
+   "s": 21.2,
+   "h": 104,
+   "d": "62"
+  },
+  {
+   "n": "NVISO Belgium",
+   "s": 11.5,
+   "h": 104,
+   "d": "62"
+  },
+  {
+   "n": "SELLIGENT",
+   "s": 19.2,
+   "h": 99,
+   "d": "63"
+  },
+  {
+   "n": "AMARIS CONSULTING BELGIUM",
+   "s": 37.4,
+   "h": 99,
+   "d": "62"
+  },
+  {
+   "n": "KEYRUS",
+   "s": 26.5,
+   "h": 98,
+   "d": "62"
+  },
+  {
+   "n": "NorthgateArinso Belgium",
+   "s": 27.8,
+   "h": 97,
+   "d": "62"
+  },
+  {
+   "n": "EKINOPS BELGIUM",
+   "s": 30.2,
+   "h": 96,
+   "d": "26"
+  },
+  {
+   "n": "Fortinet Belgium BV",
+   "s": 15.8,
+   "h": 95,
+   "d": "62"
+  },
+  {
+   "n": "Vertuoza",
+   "s": 28.7,
+   "h": 94,
+   "d": "62"
+  },
+  {
+   "n": "NV SAS INSTITUTE SA",
+   "s": 30.1,
+   "h": 93,
+   "d": "62"
+  },
+  {
+   "n": "DPS GROUP BELGIUM",
+   "s": 48.4,
+   "h": 93,
+   "d": "62"
+  },
+  {
+   "n": "MACQ",
+   "s": 18.7,
+   "h": 91,
+   "d": "26"
+  },
+  {
+   "n": "EURANOVA",
+   "s": 26.7,
+   "h": 90,
+   "d": "62"
+  },
+  {
+   "n": "MAINSYS FINANCIAL SOFTWARE",
+   "s": 15.9,
+   "h": 88,
+   "d": "62"
+  },
+  {
+   "n": "ONEFIELD TELCO",
+   "s": 1.1,
+   "h": 87,
+   "d": "61"
+  },
+  {
+   "n": "CREAM CONSULTING",
+   "s": 44.2,
+   "h": 86,
+   "d": "62"
+  },
+  {
+   "n": "TRUSTTEAM WALLONIE",
+   "s": 15.5,
+   "h": 84,
+   "d": "62"
+  },
+  {
+   "n": "HAULOGY.NET",
+   "s": 22.6,
+   "h": 84,
+   "d": "62"
+  },
+  {
+   "n": "ECE",
+   "s": 29.3,
+   "h": 82,
+   "d": "62"
+  },
+  {
+   "n": "GARTNER BELGIUM",
+   "s": 34.6,
+   "h": 81,
+   "d": "62"
+  },
+  {
+   "n": "IB-TECHNICS",
+   "s": 0.0,
+   "h": 81,
+   "d": "61"
+  },
+  {
+   "n": "EUROFIBER",
+   "s": 37.5,
+   "h": 80,
+   "d": "61"
+  },
+  {
+   "n": "SQLI Belgium",
+   "s": 35.0,
+   "h": 80,
+   "d": "62"
+  },
+  {
+   "n": "APPTWEAK",
+   "s": 42.5,
+   "h": 80,
+   "d": "62"
+  },
+  {
+   "n": "BLACK TIGER BELGIUM",
+   "s": 39.7,
+   "h": 78,
+   "d": "63"
+  },
+  {
+   "n": "SITECORE BELGIUM",
+   "s": 28.2,
+   "h": 78,
+   "d": "62"
+  },
+  {
+   "n": "HeadMind Partners Belgium",
+   "s": 23.4,
+   "h": 77,
+   "d": "62"
+  },
+  {
+   "n": "[Partners Through Innovation]²",
+   "s": 15.6,
+   "h": 77,
+   "d": "62"
+  },
+  {
+   "n": "TUI TECHNOLOGY",
+   "s": 32.4,
+   "h": 74,
+   "d": "62"
+  },
+  {
+   "n": "LUCIAD",
+   "s": 17.8,
+   "h": 73,
+   "d": "62"
+  },
+  {
+   "n": "TELENCO",
+   "s": 56.2,
+   "h": 73,
+   "d": "62"
+  },
+  {
+   "n": "HMS Industrial Networks",
+   "s": 25.0,
+   "h": 72,
+   "d": "26"
+  },
+  {
+   "n": "Circet Projects",
+   "s": 30.6,
+   "h": 72,
+   "d": "62"
+  },
+  {
+   "n": "Projective Group Talent BE",
+   "s": 43.1,
+   "h": 72,
+   "d": "62"
+  },
+  {
+   "n": "PROJECT ENGINEERING AND CONTRACTING",
+   "s": 5.6,
+   "h": 72,
+   "d": "62"
+  },
+  {
+   "n": "NEXIOS CONSULTING GROUP",
+   "s": 21.1,
+   "h": 71,
+   "d": "62"
+  },
+  {
+   "n": "Connectis CMC  Belgium",
+   "s": 9.9,
+   "h": 71,
+   "d": "62"
+  },
+  {
+   "n": "ASDAEX",
+   "s": 22.5,
+   "h": 71,
+   "d": "62"
+  },
+  {
+   "n": "Cadence Design Systems Belgium",
+   "s": 12.9,
+   "h": 70,
+   "d": "62"
+  },
+  {
+   "n": "RHEA SYSTEM",
+   "s": 41.4,
+   "h": 70,
+   "d": "62"
+  },
+  {
+   "n": "ACTITO",
+   "s": 35.7,
+   "h": 70,
+   "d": "63"
+  },
+  {
+   "n": "Colt Technology Services",
+   "s": 27.5,
+   "h": 69,
+   "d": "61"
+  },
+  {
+   "n": "FUJITSU TALENT BELGIUM",
+   "s": 20.6,
+   "h": 68,
+   "d": "58"
+  },
+  {
+   "n": "ServiceNow Belgium",
+   "s": 22.4,
+   "h": 67,
+   "d": "62"
+  },
+  {
+   "n": "EFFICY",
+   "s": 24.2,
+   "h": 66,
+   "d": "62"
+  },
+  {
+   "n": "RED HAT",
+   "s": 12.1,
+   "h": 66,
+   "d": "62"
+  },
+  {
+   "n": "CTG ITS",
+   "s": 12.3,
+   "h": 65,
+   "d": "62"
+  },
+  {
+   "n": "LACO",
+   "s": 37.5,
+   "h": 64,
+   "d": "62"
+  },
+  {
+   "n": "centran",
+   "s": 12.5,
+   "h": 64,
+   "d": "62"
+  },
+  {
+   "n": "WikiTree",
+   "s": 54.7,
+   "h": 64,
+   "d": "62"
+  },
+  {
+   "n": "MERKATOR",
+   "s": 19.0,
+   "h": 63,
+   "d": "62"
+  },
+  {
+   "n": "TotalEnergies Global Information Technology Services Belgium",
+   "s": 25.4,
+   "h": 63,
+   "d": "62"
+  },
+  {
+   "n": "Proximus Ada",
+   "s": 20.6,
+   "h": 63,
+   "d": "63"
+  },
+  {
+   "n": "STMicroelectronics Belgium",
+   "s": 12.9,
+   "h": 62,
+   "d": "62"
+  },
+  {
+   "n": "The Stepstone Group Belgium",
+   "s": 33.3,
+   "h": 60,
+   "d": "63"
+  },
+  {
+   "n": "HUAWEI TECHNOLOGIES RESEARCH & DEVELOPMENT BELGIUM",
+   "s": 18.3,
+   "h": 60,
+   "d": "26"
+  },
+  {
+   "n": "Devoteam G Cloud BeLux",
+   "s": 13.3,
+   "h": 60,
+   "d": "62"
+  },
+  {
+   "n": "Cranium Belgium",
+   "s": 68.3,
+   "h": 60,
+   "d": "62"
+  },
+  {
+   "n": "NISH Tech",
+   "s": 37.3,
+   "h": 59,
+   "d": "62"
+  },
+  {
+   "n": "Attentia Corporate",
+   "s": 69.0,
+   "h": 58,
+   "d": "63"
+  },
+  {
+   "n": "SII BELGIUM",
+   "s": 15.5,
+   "h": 58,
+   "d": "62"
+  },
+  {
+   "n": "UNISYS BELGIUM",
+   "s": 26.3,
+   "h": 57,
+   "d": "62"
+  },
+  {
+   "n": "Oracle Global Services Belgium",
+   "s": 21.4,
+   "h": 56,
+   "d": "62"
+  },
+  {
+   "n": "S.A. ISTA N.V.",
+   "s": 34.5,
+   "h": 55,
+   "d": "26"
+  },
+  {
+   "n": "Hewlett Packard Enterprise CDS Belgium",
+   "s": 12.7,
+   "h": 55,
+   "d": "62"
+  },
+  {
+   "n": "JEMA",
+   "s": 10.9,
+   "h": 55,
+   "d": "26"
+  },
+  {
+   "n": "Business Elements Reply",
+   "s": 21.8,
+   "h": 55,
+   "d": "62"
+  },
+  {
+   "n": "BUREAU D'EXPERTS Ph. DEPLASSE ET ASSOCIES",
+   "s": 25.9,
+   "h": 54,
+   "d": "63"
+  },
+  {
+   "n": "ZIMMO",
+   "s": 46.3,
+   "h": 54,
+   "d": "58"
+  },
+  {
+   "n": "TRAX",
+   "s": 22.2,
+   "h": 54,
+   "d": "62"
+  },
+  {
+   "n": "Essensium",
+   "s": 9.3,
+   "h": 54,
+   "d": "62"
+  },
+  {
+   "n": "MyData-TRUST",
+   "s": 63.0,
+   "h": 54,
+   "d": "63"
+  },
+  {
+   "n": "Cubis Solutions",
+   "s": 18.9,
+   "h": 53,
+   "d": "62"
+  },
+  {
+   "n": "IMAGE RECOGNITION INTEGRATED SYSTEMS",
+   "s": 21.2,
+   "h": 52,
+   "d": "62"
+  },
+  {
+   "n": "CAPYX",
+   "s": 15.4,
+   "h": 52,
+   "d": "62"
+  },
+  {
+   "n": "Fresh Chef",
+   "s": 32.7,
+   "h": 52,
+   "d": "62"
+  },
+  {
+   "n": "SplendIT",
+   "s": 19.2,
+   "h": 52,
+   "d": "62"
+  },
+  {
+   "n": "GENESIS CONSULT",
+   "s": 37.3,
+   "h": 51,
+   "d": "62"
+  },
+  {
+   "n": "J.D.-CONSULT",
+   "s": 25.5,
+   "h": 51,
+   "d": "62"
+  },
+  {
+   "n": "Extia Belgium",
+   "s": 13.7,
+   "h": 51,
+   "d": "62"
+  },
+  {
+   "n": "Huawei Technologies (Belgium)",
+   "s": 35.3,
+   "h": 51,
+   "d": "61"
+  },
+  {
+   "n": "Smart Innovation",
+   "s": 13.7,
+   "h": 51,
+   "d": "62"
+  },
+  {
+   "n": "Belgian Mobile ID",
+   "s": 25.5,
+   "h": 51,
+   "d": "62"
+  },
+  {
+   "n": "Bancontact Company",
+   "s": 47.1,
+   "h": 51,
+   "d": "63"
+  },
+  {
+   "n": "EMAsphere",
+   "s": 30.0,
+   "h": 50,
+   "d": "58"
+  },
+  {
+   "n": "HIGHTEKERS",
+   "s": 18.0,
+   "h": 50,
+   "d": "62"
+  },
+  {
+   "n": "APPROACH BELGIUM",
+   "s": 18.4,
+   "h": 49,
+   "d": "62"
+  },
+  {
+   "n": "IPEX",
+   "s": 36.7,
+   "h": 49,
+   "d": "63"
+  },
+  {
+   "n": "ESRI BELUX",
+   "s": 34.7,
+   "h": 49,
+   "d": "62"
+  },
+  {
+   "n": "Solita",
+   "s": 20.4,
+   "h": 49,
+   "d": "62"
+  },
+  {
+   "n": "ALSINOVA BELGIUM",
+   "s": 69.4,
+   "h": 49,
+   "d": "62"
+  },
+  {
+   "n": "SCALIAN BENELUX",
+   "s": 18.4,
+   "h": 49,
+   "d": "62"
+  },
+  {
+   "n": "DASSAULT SYSTEMES BELGIUM",
+   "s": 16.7,
+   "h": 48,
+   "d": "keep"
+  },
+  {
+   "n": "IRISnet",
+   "s": 33.3,
+   "h": 48,
+   "d": "61"
+  },
+  {
+   "n": "SKYFORCE Cyber Security",
+   "s": 47.9,
+   "h": 48,
+   "d": "62"
+  },
+  {
+   "n": "asUgo Consulting",
+   "s": 33.3,
+   "h": 48,
+   "d": "62"
+  },
+  {
+   "n": "SNPS Belgium",
+   "s": 6.4,
+   "h": 47,
+   "d": "62"
+  },
+  {
+   "n": "ADIUTUM",
+   "s": 14.9,
+   "h": 47,
+   "d": "62"
+  },
+  {
+   "n": "B12 CONSULTING",
+   "s": 38.3,
+   "h": 47,
+   "d": "62"
+  },
+  {
+   "n": "5th FLOOR SOFTWARE",
+   "s": 42.6,
+   "h": 47,
+   "d": "62"
+  },
+  {
+   "n": "OpenWAY Europe",
+   "s": 26.1,
+   "h": 46,
+   "d": "62"
+  },
+  {
+   "n": "QUALIFIO",
+   "s": 52.2,
+   "h": 46,
+   "d": "62"
+  },
+  {
+   "n": "TENFORCE",
+   "s": 37.0,
+   "h": 46,
+   "d": "62"
+  },
+  {
+   "n": "ATRIAS",
+   "s": 30.4,
+   "h": 46,
+   "d": "63"
+  },
+  {
+   "n": "Phished",
+   "s": 34.8,
+   "h": 46,
+   "d": "62"
+  },
+  {
+   "n": "TEIN TECHNOLOGY",
+   "s": 17.8,
+   "h": 45,
+   "d": "26"
+  },
+  {
+   "n": "Septeo Notary Solutions BE",
+   "s": 24.4,
+   "h": 45,
+   "d": "62"
+  },
+  {
+   "n": "LCL",
+   "s": 26.7,
+   "h": 45,
+   "d": "61"
+  },
+  {
+   "n": "THE CAPITAL MARKETS COMPANY",
+   "s": 24.4,
+   "h": 45,
+   "d": "62"
+  },
+  {
+   "n": "Astek Belgium",
+   "s": 15.6,
+   "h": 45,
+   "d": "62"
+  },
+  {
+   "n": "DimiJob",
+   "s": 60.0,
+   "h": 45,
+   "d": "63"
+  },
+  {
+   "n": "MPHASIS BELGIUM",
+   "s": 20.0,
+   "h": 45,
+   "d": "62"
+  },
+  {
+   "n": "Mobilexpense",
+   "s": 46.7,
+   "h": 45,
+   "d": "62"
+  },
+  {
+   "n": "INPUT FOR YOU",
+   "s": 65.9,
+   "h": 44,
+   "d": "63"
+  },
+  {
+   "n": "UNISYS CONSULTING",
+   "s": 53.5,
+   "h": 43,
+   "d": "62"
+  },
+  {
+   "n": "Banqup Solutions",
+   "s": 48.8,
+   "h": 43,
+   "d": "63"
+  },
+  {
+   "n": "SHUNGHAM INFORMATION",
+   "s": 37.2,
+   "h": 43,
+   "d": "63"
+  },
+  {
+   "n": "8INFINI",
+   "s": 20.9,
+   "h": 43,
+   "d": "63"
+  },
+  {
+   "n": "EXTIA BELGIUM IT",
+   "s": 9.3,
+   "h": 43,
+   "d": "62"
+  },
+  {
+   "n": "PSI METALS BELGIUM",
+   "s": 33.3,
+   "h": 42,
+   "d": "62"
+  },
+  {
+   "n": "ENGINEERING CONSULTANCY SERVICES HERMES",
+   "s": 21.4,
+   "h": 42,
+   "d": "62"
+  },
+  {
+   "n": "CONTRASTE EUROPE",
+   "s": 21.4,
+   "h": 42,
+   "d": "63"
+  },
+  {
+   "n": "VOXBONE",
+   "s": 42.9,
+   "h": 42,
+   "d": "62"
+  },
+  {
+   "n": "irex Consulting",
+   "s": 14.3,
+   "h": 42,
+   "d": "62"
+  },
+  {
+   "n": "LIZY Belgium",
+   "s": 26.2,
+   "h": 42,
+   "d": "62"
+  },
+  {
+   "n": "ACUMEN CONSULTING",
+   "s": 11.9,
+   "h": 42,
+   "d": "62"
+  },
+  {
+   "n": "G.I.M. - GEOGRAPHIC INFORMATION MANAGEMENT",
+   "s": 26.8,
+   "h": 41,
+   "d": "62"
+  },
+  {
+   "n": "INTERXION BELGIUM",
+   "s": 17.1,
+   "h": 41,
+   "d": "62"
+  },
+  {
+   "n": "ONEPOINT BELGIUM",
+   "s": 24.4,
+   "h": 41,
+   "d": "62"
+  },
+  {
+   "n": "European Registry for Internet Domains",
+   "s": 34.1,
+   "h": 41,
+   "d": "63"
+  },
+  {
+   "n": "FLEXSO BRUSSELS",
+   "s": 17.1,
+   "h": 41,
+   "d": "62"
+  },
+  {
+   "n": "CULLEN INTERNATIONAL",
+   "s": 60.0,
+   "h": 40,
+   "d": "62"
+  },
+  {
+   "n": "ORTEC BELGIUM",
+   "s": 27.5,
+   "h": 40,
+   "d": "62"
+  },
+  {
+   "n": "ADVANCED SERVICE PROVIDER",
+   "s": 17.5,
+   "h": 40,
+   "d": "62"
+  },
+  {
+   "n": "AKABI",
+   "s": 20.0,
+   "h": 40,
+   "d": "62"
+  },
+  {
+   "n": "ONEFIELD SERVICES",
+   "s": 0.0,
+   "h": 40,
+   "d": "61"
+  },
+  {
+   "n": "EASICS",
+   "s": 10.3,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "Domaine Name Registration België- Domaine Name Registration Belgique - Domaine Name Registration Belgium",
+   "s": 23.1,
+   "h": 39,
+   "d": "63"
+  },
+  {
+   "n": "SEMLEX EUROPE",
+   "s": 28.2,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "DAMOVO BELGIUM",
+   "s": 15.4,
+   "h": 39,
+   "d": "61"
+  },
+  {
+   "n": "IDEALIS CONSULTING",
+   "s": 25.6,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "SEMETIS",
+   "s": 61.5,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "New Era Technology BE NV/SA",
+   "s": 17.9,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "TWIPE MOBILE SOLUTIONS",
+   "s": 33.3,
+   "h": 39,
+   "d": "61"
+  },
+  {
+   "n": "MIRRHIA 4 INTERNATIONAL",
+   "s": 7.7,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "SoftwareONE BE",
+   "s": 41.0,
+   "h": 39,
+   "d": "62"
+  },
+  {
+   "n": "Centre de Formation 2mille",
+   "s": 42.1,
+   "h": 38,
+   "d": "63"
+  },
+  {
+   "n": "TIPIK COMMUNICATION AGENCY",
+   "s": 71.1,
+   "h": 38,
+   "d": "62"
+  },
+  {
+   "n": "SAFE AND SOUND",
+   "s": 10.5,
+   "h": 38,
+   "d": "26"
+  },
+  {
+   "n": "LYCAMOBILE",
+   "s": 2.6,
+   "h": 38,
+   "d": "61"
+  },
+  {
+   "n": "EY SOLUTIONS",
+   "s": 47.4,
+   "h": 38,
+   "d": "62"
+  },
+  {
+   "n": "R-CONCEPT",
+   "s": 7.9,
+   "h": 38,
+   "d": "26"
+  },
+  {
+   "n": "The Tech IQ",
+   "s": 15.8,
+   "h": 38,
+   "d": "62"
+  },
+  {
+   "n": "SEE TELECOM",
+   "s": 27.0,
+   "h": 37,
+   "d": "26"
+  },
+  {
+   "n": "PRODATA SYSTEMS",
+   "s": 10.8,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "MSC SOFTWARE BELGIUM",
+   "s": 10.8,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "INITIO BELGIUM",
+   "s": 43.2,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "intoPIX",
+   "s": 24.3,
+   "h": 37,
+   "d": "26"
+  },
+  {
+   "n": "EUROPEAN DYNAMICS BELGIUM",
+   "s": 37.8,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "KEYSTONE SOLUTIONS",
+   "s": 29.7,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "ATS4IT - Adaptable Technology Services",
+   "s": 16.2,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "Streamz",
+   "s": 56.8,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "Spatial Intelligence Genuine & Generic IT Solutions",
+   "s": 24.3,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "THEO Technologies",
+   "s": 13.5,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "Retail Support Services",
+   "s": 8.1,
+   "h": 37,
+   "d": "62"
+  },
+  {
+   "n": "ORDIGES",
+   "s": 22.2,
+   "h": 36,
+   "d": "62"
+  },
+  {
+   "n": "Simac PHI DATA",
+   "s": 27.8,
+   "h": 36,
+   "d": "62"
+  },
+  {
+   "n": "AXIANS AUDIOVISUAL BELGIUM",
+   "s": 19.4,
+   "h": 36,
+   "d": "61"
+  },
+  {
+   "n": "STATIK",
+   "s": 66.7,
+   "h": 36,
+   "d": "62"
+  },
+  {
+   "n": "ALPHA NETWORKS",
+   "s": 13.9,
+   "h": 36,
+   "d": "62"
+  },
+  {
+   "n": "HertBelgium",
+   "s": 47.2,
+   "h": 36,
+   "d": "62"
+  },
+  {
+   "n": "SALONKEE",
+   "s": 66.7,
+   "h": 36,
+   "d": "63"
+  },
+  {
+   "n": "SECURITAS SERVICES EUROPE",
+   "s": 25.7,
+   "h": 35,
+   "d": "62"
+  },
+  {
+   "n": "MAINSYS BELGIUM",
+   "s": 11.4,
+   "h": 35,
+   "d": "62"
+  },
+  {
+   "n": "QPLOX ENGINEERING",
+   "s": 60.0,
+   "h": 35,
+   "d": "62"
+  },
+  {
+   "n": "IT LINK BENELUX",
+   "s": 22.9,
+   "h": 35,
+   "d": "62"
+  },
+  {
+   "n": "GM ASSOCIATION",
+   "s": 8.6,
+   "h": 35,
+   "d": "26"
+  },
+  {
+   "n": "ILIAS SOLUTIONS",
+   "s": 29.4,
+   "h": 34,
+   "d": "63"
+  },
+  {
+   "n": "Electro Mechanic Equipment",
+   "s": 5.9,
+   "h": 34,
+   "d": "26"
+  },
+  {
+   "n": "BRAIN²",
+   "s": 8.8,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "IGUANA",
+   "s": 55.9,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "SimCorp Benelux SA/NV",
+   "s": 23.5,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "Demonstrate",
+   "s": 41.2,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "ACSONE",
+   "s": 26.5,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "XLIT CONSULTING",
+   "s": 38.2,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "Goodix Technology (Belgium)",
+   "s": 26.5,
+   "h": 34,
+   "d": "62"
+  },
+  {
+   "n": "ROSSEL INTERACTIVE MEDIA",
+   "s": 12.1,
+   "h": 33,
+   "d": "62"
+  },
+  {
+   "n": "TELSERVICE (R & C)",
+   "s": 18.2,
+   "h": 33,
+   "d": "61"
+  },
+  {
+   "n": "AT & T GLOBAL NETWORK SERVICES BELGIUM LUXEMBOURG",
+   "s": 21.2,
+   "h": 33,
+   "d": "61"
+  },
+  {
+   "n": "NODALVIEW",
+   "s": 51.5,
+   "h": 33,
+   "d": "62"
+  },
+  {
+   "n": "Dataminded",
+   "s": 18.2,
+   "h": 33,
+   "d": "62"
+  },
+  {
+   "n": "QORVO BELGIUM",
+   "s": 6.1,
+   "h": 33,
+   "d": "58"
+  },
+  {
+   "n": "A&s partners",
+   "s": 39.4,
+   "h": 33,
+   "d": "61"
+  },
+  {
+   "n": "Cruxsoft",
+   "s": 54.5,
+   "h": 33,
+   "d": "62"
+  },
+  {
+   "n": "Pricewaterhouse Coopers Technology Consulting Belgium",
+   "s": 18.8,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "AMINDIS",
+   "s": 25.0,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "AUTONOOM PROVINCIEBEDRIJF VLAAMS-BRABANTS EXTRANET VOOR REGIO EN ADMINISTRATIE",
+   "s": 25.0,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "SWARCO Belgium",
+   "s": 21.9,
+   "h": 32,
+   "d": "61"
+  },
+  {
+   "n": "ADVENSYS",
+   "s": 9.4,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "Kontron Public Transportation",
+   "s": 15.6,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "MIM Software Brussels",
+   "s": 43.8,
+   "h": 32,
+   "d": "58"
+  },
+  {
+   "n": "AUTOSCOUT24 BELGIUM",
+   "s": 31.2,
+   "h": 32,
+   "d": "61"
+  },
+  {
+   "n": "CHECK POINT SOFTWARE TECHNOLOGIES (BELGIUM)",
+   "s": 18.8,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "LDV PRODUCTION",
+   "s": 18.8,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "Econocom DigiTalent",
+   "s": 6.2,
+   "h": 32,
+   "d": "62"
+  },
+  {
+   "n": "T.V. Com.",
+   "s": 25.8,
+   "h": 31,
+   "d": "61"
+  },
+  {
+   "n": "COMEXIS - PARTNERS",
+   "s": 6.5,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "INTERGRAPH BELGIUM",
+   "s": 22.6,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "Dekimo Experts Louvain-la-Neuve",
+   "s": 12.9,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "MCA BELGIUM",
+   "s": 32.3,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "Aprico Consultants",
+   "s": 25.8,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "CEGELEC CONTROL SYSTEMS & SERVICES",
+   "s": 12.9,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "e-peas",
+   "s": 19.4,
+   "h": 31,
+   "d": "26"
+  },
+  {
+   "n": "INDEED BELGIUM OPERATIONS",
+   "s": 29.0,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "Oqton Belgium",
+   "s": 19.4,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "DN-ANALYTICS",
+   "s": 22.6,
+   "h": 31,
+   "d": "62"
+  },
+  {
+   "n": "Doccle",
+   "s": 29.0,
+   "h": 31,
+   "d": "63"
+  },
+  {
+   "n": "Green Island",
+   "s": 10.0,
+   "h": 30,
+   "d": "62"
+  },
+  {
+   "n": "Wipro CRM Services",
+   "s": 40.0,
+   "h": 30,
+   "d": "62"
+  },
+  {
+   "n": "RESTOMAX",
+   "s": 16.7,
+   "h": 30,
+   "d": "62"
+  },
+  {
+   "n": "TCrew",
+   "s": 23.3,
+   "h": 30,
+   "d": "58"
+  },
+  {
+   "n": "Access From Everywhere Benelux",
+   "s": 46.7,
+   "h": 30,
+   "d": "63"
+  },
+  {
+   "n": "BRAINSTORM CONSULTING",
+   "s": 6.7,
+   "h": 30,
+   "d": "62"
+  },
+  {
+   "n": "Atmire",
+   "s": 36.7,
+   "h": 30,
+   "d": "58"
+  },
+  {
+   "n": "ITENIUM",
+   "s": 13.3,
+   "h": 30,
+   "d": "62"
+  },
+  {
+   "n": "Eurofins GSC Transformation & Operational Excellence SA",
+   "s": 53.3,
+   "h": 30,
+   "d": "62"
+  },
+  {
+   "n": "Deutsche Telekom Global Business Solutions Belgium",
+   "s": 34.5,
+   "h": 29,
+   "d": "63"
+  },
+  {
+   "n": "Onefield Belgium",
+   "s": 24.1,
+   "h": 29,
+   "d": "61"
+  },
+  {
+   "n": "Comptoir Belge de Télécommunications",
+   "s": 3.4,
+   "h": 29,
+   "d": "26"
+  },
+  {
+   "n": "ZTE BELGIUM",
+   "s": 17.2,
+   "h": 29,
+   "d": "62"
+  },
+  {
+   "n": "ProUnity",
+   "s": 58.6,
+   "h": 29,
+   "d": "63"
+  },
+  {
+   "n": "Superlinear",
+   "s": 20.7,
+   "h": 29,
+   "d": "62"
+  },
+  {
+   "n": "DOMAR",
+   "s": 96.6,
+   "h": 29,
+   "d": "62"
+  },
+  {
+   "n": "Leexi",
+   "s": 34.5,
+   "h": 29,
+   "d": "58"
+  },
+  {
+   "n": "YOUL",
+   "s": 25.0,
+   "h": 28,
+   "d": "62"
+  },
+  {
+   "n": "ACENSI BELGIUM",
+   "s": 25.0,
+   "h": 28,
+   "d": "62"
+  },
+  {
+   "n": "Eurofins GSC IT Product Management SA",
+   "s": 46.4,
+   "h": 28,
+   "d": "62"
+  },
+  {
+   "n": "Flexcity Belgium",
+   "s": 17.9,
+   "h": 28,
+   "d": "61"
+  },
+  {
+   "n": "Too Good To Go Belgium",
+   "s": 46.4,
+   "h": 28,
+   "d": "63"
+  },
+  {
+   "n": "Mind OSS",
+   "s": 3.6,
+   "h": 28,
+   "d": "62"
+  },
+  {
+   "n": "DORNACH",
+   "s": 3.7,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "HEALTH DATA MANAGEMENT PARTNERS",
+   "s": 22.2,
+   "h": 27,
+   "d": "58"
+  },
+  {
+   "n": "Dienst Tewerkstelling van Koekelberg - Service Emploi de Koekelberg",
+   "s": 51.9,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "Software A.G. Belgium",
+   "s": 29.6,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "VASS EU SERVICES BELGIUM",
+   "s": 44.4,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "Bluesquare",
+   "s": 51.9,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "ELO Touch Solutions (Belgium)",
+   "s": 63.0,
+   "h": 27,
+   "d": "26"
+  },
+  {
+   "n": "Polteq Test Services",
+   "s": 18.5,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "CONSORT BELGIUM",
+   "s": 18.5,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "REACFIN",
+   "s": 25.9,
+   "h": 27,
+   "d": "63"
+  },
+  {
+   "n": "QAELUM",
+   "s": 51.9,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "Platinion",
+   "s": 40.7,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "SQUAREFLOW",
+   "s": 40.7,
+   "h": 27,
+   "d": "62"
+  },
+  {
+   "n": "Dekimo Leuven",
+   "s": 11.5,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "BLUETIME",
+   "s": 57.7,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "URBANTECH",
+   "s": 19.2,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "RENTA SOLUTIONS",
+   "s": 38.5,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "ACCOUNTABLE",
+   "s": 50.0,
+   "h": 26,
+   "d": "63"
+  },
+  {
+   "n": "HRlinkIT",
+   "s": 38.5,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "I.R.I.S. Solutions & Experts",
+   "s": 19.2,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "HNM SOLUTIONS",
+   "s": 26.9,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "NEXEO BELGIUM",
+   "s": 80.8,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "Pharrowtech",
+   "s": 23.1,
+   "h": 26,
+   "d": "62"
+  },
+  {
+   "n": "ECONOCOM LEASE",
+   "s": 44.0,
+   "h": 25,
+   "d": "62"
+  },
+  {
+   "n": "GTT Communications Belgium",
+   "s": 28.0,
+   "h": 25,
+   "d": "61"
+  },
+  {
+   "n": "ITS GROUP BENELUX",
+   "s": 16.0,
+   "h": 25,
+   "d": "63"
+  },
+  {
+   "n": "SDL BELGIUM",
+   "s": 40.0,
+   "h": 25,
+   "d": "62"
+  },
+  {
+   "n": "GIFTIFY",
+   "s": 68.0,
+   "h": 25,
+   "d": "26"
+  },
+  {
+   "n": "OpenS",
+   "s": 40.0,
+   "h": 25,
+   "d": "61"
+  },
+  {
+   "n": "Business and ICT Consulting",
+   "s": 20.0,
+   "h": 25,
+   "d": "62"
+  },
+  {
+   "n": "DataCamp Belgium",
+   "s": 8.0,
+   "h": 25,
+   "d": "63"
+  },
+  {
+   "n": "All Colors of Communication",
+   "s": 64.0,
+   "h": 25,
+   "d": "63"
+  },
+  {
+   "n": "ARGAFIN",
+   "s": 36.0,
+   "h": 25,
+   "d": "62"
+  },
+  {
+   "n": "EUROPEAN MEDICINES VERIFICATION ORGANISATION A.S.B.L.",
+   "s": 48.0,
+   "h": 25,
+   "d": "63"
+  },
+  {
+   "n": "GeoPostcodes",
+   "s": 28.0,
+   "h": 25,
+   "d": "63"
+  },
+  {
+   "n": "Thales Cyber Solutions Belgium",
+   "s": 16.0,
+   "h": 25,
+   "d": "62"
+  },
+  {
+   "n": "IRON MOUNTAIN BELGIUM",
+   "s": 16.0,
+   "h": 25,
+   "d": "63"
+  },
+  {
+   "n": "Lytix",
+   "s": 16.0,
+   "h": 25,
+   "d": "62"
+  },
+  {
+   "n": "NCR BELGIUM and Co",
+   "s": 0.0,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "AC AUTOMATION CENTER",
+   "s": 25.0,
+   "h": 24,
+   "d": "63"
+  },
+  {
+   "n": "SHEHERAZADE Développement",
+   "s": 29.2,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "ANSYS BELGIUM",
+   "s": 29.2,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "ELSYCA",
+   "s": 20.8,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "WISA",
+   "s": 37.5,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "HRWeb Solutions",
+   "s": 41.7,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "TerUsus",
+   "s": 12.5,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "AVANTAGE REPLY (BELGIUM)",
+   "s": 25.0,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "3D-SIDE",
+   "s": 25.0,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "JETPACK",
+   "s": 33.3,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "Retviews",
+   "s": 37.5,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "Yechte Consulting EU",
+   "s": 66.7,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "ROSA",
+   "s": 41.7,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "AXEASY",
+   "s": 41.7,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "CST Advisory",
+   "s": 54.2,
+   "h": 24,
+   "d": "62"
+  },
+  {
+   "n": "NATIONAL INSTRUMENTS BELGIUM",
+   "s": 8.7,
+   "h": 23,
+   "d": "62"
+  },
+  {
+   "n": "APPLIED MATERIALS BELGIUM",
+   "s": 8.7,
+   "h": 23,
+   "d": "26"
+  },
+  {
+   "n": "Dstny Global Services BE",
+   "s": 8.7,
+   "h": 23,
+   "d": "62"
+  },
+  {
+   "n": "KNOWLIAH",
+   "s": 34.8,
+   "h": 23,
+   "d": "62"
+  },
+  {
+   "n": "DELCAMPE INTERNATIONAL",
+   "s": 60.9,
+   "h": 23,
+   "d": "63"
+  },
+  {
+   "n": "NILORT TECHNOLOGIES IT GROUP",
+   "s": 21.7,
+   "h": 23,
+   "d": "62"
+  },
+  {
+   "n": "Dun & Bradstreet Europe Data Science Innovation",
+   "s": 8.7,
+   "h": 23,
+   "d": "62"
+  },
+  {
+   "n": "PERSOLIS",
+   "s": 43.5,
+   "h": 23,
+   "d": "62"
+  },
+  {
+   "n": "SYNTHETIS",
+   "s": 27.3,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "THE RING RING COMPANY",
+   "s": 31.8,
+   "h": 22,
+   "d": "61"
+  },
+  {
+   "n": "TELEMIS",
+   "s": 22.7,
+   "h": 22,
+   "d": "63"
+  },
+  {
+   "n": "MEDSOC",
+   "s": 18.2,
+   "h": 22,
+   "d": "58"
+  },
+  {
+   "n": "ADM Village n°1 Entreprise",
+   "s": 63.6,
+   "h": 22,
+   "d": "61"
+  },
+  {
+   "n": "EFKON BELGIUM",
+   "s": 0.0,
+   "h": 22,
+   "d": "63"
+  },
+  {
+   "n": "NMG",
+   "s": 86.4,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "Sitemark",
+   "s": 31.8,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "Walcom Business Solutions",
+   "s": 45.5,
+   "h": 22,
+   "d": "61"
+  },
+  {
+   "n": "DATAMIND",
+   "s": 72.7,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "BENE RAIL INTERNATIONAL",
+   "s": 50.0,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "IT ANYWHERE",
+   "s": 4.5,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "ALPEGA",
+   "s": 36.4,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "EEZEE-IT",
+   "s": 36.4,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "Dynamix Java",
+   "s": 31.8,
+   "h": 22,
+   "d": "62"
+  },
+  {
+   "n": "ATELIERS RADIOMECANIQUES BELGES",
+   "s": 9.5,
+   "h": 21,
+   "d": "26"
+  },
+  {
+   "n": "RAINCODE",
+   "s": 23.8,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "ARCADIZ TELECOM",
+   "s": 33.3,
+   "h": 21,
+   "d": "61"
+  },
+  {
+   "n": "Quant ICT",
+   "s": 19.0,
+   "h": 21,
+   "d": "61"
+  },
+  {
+   "n": "BE. WAN",
+   "s": 33.3,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "NETIKA IT SERVICES",
+   "s": 4.8,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "Apixa",
+   "s": 9.5,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "K-FORCE COMPUTER SOLUTIONS",
+   "s": 28.6,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "MEMOCO",
+   "s": 28.6,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "MOBCO",
+   "s": 23.8,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "SoundTalks",
+   "s": 33.3,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "MULTIMEDIAN",
+   "s": 19.0,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "Twenty8",
+   "s": 23.8,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "KEYROCK",
+   "s": 33.3,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "ATCON GLOBAL",
+   "s": 76.2,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "Arcsec",
+   "s": 23.8,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "ALTEO CONSULTING",
+   "s": 9.5,
+   "h": 21,
+   "d": "62"
+  },
+  {
+   "n": "Vishay Resistors Belgium",
+   "s": 50.0,
+   "h": 20,
+   "d": "26"
+  },
+  {
+   "n": "DOMINTELL",
+   "s": 25.0,
+   "h": 20,
+   "d": "26"
+  },
+  {
+   "n": "PULSAR CONSULTING",
+   "s": 10.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "OneMind TECHNOLOGIES",
+   "s": 25.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Axway Belgium",
+   "s": 20.0,
+   "h": 20,
+   "d": "58"
+  },
+  {
+   "n": "RADIONOMY",
+   "s": 25.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "We Are Digital",
+   "s": 65.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Alpega TMS Belgium",
+   "s": 60.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "CODIFLY",
+   "s": 20.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "SHYFTER",
+   "s": 40.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Aexis Medical",
+   "s": 15.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "MEGABYTE APPLICATIONS",
+   "s": 20.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Optimy",
+   "s": 45.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Piros",
+   "s": 5.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Green Island Belgium",
+   "s": 25.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "Hexaware Technologies Belgium",
+   "s": 20.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "ADSCALE TECHNOLOGIES",
+   "s": 10.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "PRO CONSULTANCY",
+   "s": 10.0,
+   "h": 20,
+   "d": "62"
+  },
+  {
+   "n": "CORSEARCH EUROPE",
+   "s": 52.6,
+   "h": 19,
+   "d": "63"
+  },
+  {
+   "n": "SCOLARES",
+   "s": 42.1,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "IntellectEU",
+   "s": 36.8,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "TYNESO",
+   "s": 10.5,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "OVARRO",
+   "s": 15.8,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Systemat Document Solutions",
+   "s": 63.2,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "XeniT Solutions",
+   "s": 15.8,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "irex",
+   "s": 26.3,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Asfalys",
+   "s": 47.4,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Tamahris",
+   "s": 63.2,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "ACT DIGITAL BENELUX",
+   "s": 5.3,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Novera Solutions",
+   "s": 10.5,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "ITQ CONSULTANCY",
+   "s": 0.0,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Soda Data",
+   "s": 15.8,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "THALERIA",
+   "s": 5.3,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "pepps engineering",
+   "s": 10.5,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Ingenico Belgium",
+   "s": 31.6,
+   "h": 19,
+   "d": "26"
+  },
+  {
+   "n": "Microsoft 2354 Belgium",
+   "s": 26.3,
+   "h": 19,
+   "d": "62"
+  },
+  {
+   "n": "Vlaams Datanutsbedrijf",
+   "s": 57.9,
+   "h": 19,
+   "d": "63"
+  },
+  {
+   "n": "SAGE",
+   "s": 38.9,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Axemédia",
+   "s": 27.8,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Xelor",
+   "s": 16.7,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "DATA INNOVATIONS EUROPE",
+   "s": 33.3,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "ADINSEC",
+   "s": 16.7,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "MICROPOLE CONSULTING BELGIUM",
+   "s": 22.2,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Nomios Belgium",
+   "s": 22.2,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "LVLP",
+   "s": 11.1,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "SAGACIFY",
+   "s": 16.7,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Drawbotics",
+   "s": 55.6,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Micro Focus Belgium",
+   "s": 27.8,
+   "h": 18,
+   "d": "61"
+  },
+  {
+   "n": "BRUCOOP",
+   "s": 55.6,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Shippr",
+   "s": 44.4,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "APKIOSK",
+   "s": 22.2,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Quantum Storage Belgium",
+   "s": 5.6,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "RISC GROUP BELGIUM",
+   "s": 44.4,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "ARXIS",
+   "s": 88.9,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "REIMAGINE",
+   "s": 27.8,
+   "h": 18,
+   "d": "63"
+  },
+  {
+   "n": "CG INTERNATIONAL CONSULTING",
+   "s": 16.7,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "CRAFT IT",
+   "s": 27.8,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "EVERIENCE BELGIUM",
+   "s": 22.2,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "KNOWARE",
+   "s": 22.2,
+   "h": 18,
+   "d": "62"
+  },
+  {
+   "n": "Les Entreprises Electriques Charles Debeur",
+   "s": 11.8,
+   "h": 17,
+   "d": "26"
+  },
+  {
+   "n": "VODAFONE BELGIUM",
+   "s": 35.3,
+   "h": 17,
+   "d": "61"
+  },
+  {
+   "n": "MARLINK",
+   "s": 29.4,
+   "h": 17,
+   "d": "61"
+  },
+  {
+   "n": "KNX ASSOCIATION",
+   "s": 41.2,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "AVAYA BELGIUM",
+   "s": 23.5,
+   "h": 17,
+   "d": "61"
+  },
+  {
+   "n": "HITACHI VANTARA BELGIUM",
+   "s": 23.5,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "OMNINET TECHNOLOGIES",
+   "s": 41.2,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "COGNIT",
+   "s": 41.2,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "ILIADE CONSULTING BELGIUM",
+   "s": 17.6,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "HAVO CONSULTING",
+   "s": 11.8,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "BEL WEB COMMUNICATION",
+   "s": 35.3,
+   "h": 17,
+   "d": "61"
+  },
+  {
+   "n": "SORTLIST",
+   "s": 23.5,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "SYNERGIA MEDICAL",
+   "s": 41.2,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "ALTERFACE PROJECTS",
+   "s": 23.5,
+   "h": 17,
+   "d": "26"
+  },
+  {
+   "n": "WORKDAY BELGIUM",
+   "s": 29.4,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "Dstny Global Infra Services",
+   "s": 11.8,
+   "h": 17,
+   "d": "61"
+  },
+  {
+   "n": "NOVUTECH",
+   "s": 41.2,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "CLICKTRUST",
+   "s": 47.1,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "WOOCLAP",
+   "s": 58.8,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "PANENCO",
+   "s": 23.5,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "Sparkle",
+   "s": 41.2,
+   "h": 17,
+   "d": "62"
+  },
+  {
+   "n": "CHIFT",
+   "s": 17.6,
+   "h": 17,
+   "d": "58"
+  },
+  {
+   "n": "OPTION",
+   "s": 25.0,
+   "h": 16,
+   "d": "26"
+  },
+  {
+   "n": "WHISE",
+   "s": 31.2,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "ESCENT",
+   "s": 43.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "STEDRA",
+   "s": 18.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "BE NETWORKS",
+   "s": 37.5,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "ENGINEERING INTERNATIONAL BELGIUM",
+   "s": 56.2,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "TOP ON WEB",
+   "s": 37.5,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "INGESTIC",
+   "s": 37.5,
+   "h": 16,
+   "d": "58"
+  },
+  {
+   "n": "MinDCet",
+   "s": 31.2,
+   "h": 16,
+   "d": "26"
+  },
+  {
+   "n": "Smart Services Network",
+   "s": 56.2,
+   "h": 16,
+   "d": "61"
+  },
+  {
+   "n": "WINAMP",
+   "s": 18.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Go Vocal",
+   "s": 31.2,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "WEBFORCE BENELUX",
+   "s": 62.5,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "MédiSPRING",
+   "s": 50.0,
+   "h": 16,
+   "d": "58"
+  },
+  {
+   "n": "EOLIS GROUP",
+   "s": 81.2,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Orion Intelligence",
+   "s": 56.2,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Belgium Management Support",
+   "s": 37.5,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Ahead Digital",
+   "s": 62.5,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Eptura Belgium",
+   "s": 31.2,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Proact Belgium",
+   "s": 6.2,
+   "h": 16,
+   "d": "63"
+  },
+  {
+   "n": "Arcsom",
+   "s": 12.5,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Awake Belgium",
+   "s": 18.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "THE DIGITAL JOURNEY",
+   "s": 6.2,
+   "h": 16,
+   "d": "63"
+  },
+  {
+   "n": "GAIA-X European Association for Data and Cloud",
+   "s": 56.2,
+   "h": 16,
+   "d": "63"
+  },
+  {
+   "n": "Nightborn",
+   "s": 18.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "THE RECHARGERS",
+   "s": 43.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "Nouveau Technologies",
+   "s": 18.8,
+   "h": 16,
+   "d": "62"
+  },
+  {
+   "n": "AEXIS BELGIUM",
+   "s": 33.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "COFACE BELGIUM SERVICES",
+   "s": 46.7,
+   "h": 15,
+   "d": "63"
+  },
+  {
+   "n": "Prodware Belgium",
+   "s": 20.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "CISSOID",
+   "s": 0.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "ATENA INTERCONTINENTAL",
+   "s": 40.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "MONEY INTERNATIONAL",
+   "s": 13.3,
+   "h": 15,
+   "d": "61"
+  },
+  {
+   "n": "CONNECTIS",
+   "s": 6.7,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "VOX TENEO",
+   "s": 33.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "QMINO",
+   "s": 20.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "TRAXXEO",
+   "s": 13.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "EARLYTRACKS",
+   "s": 46.7,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "BEE CLEANING",
+   "s": 20.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "SKWAREL",
+   "s": 20.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Idweaver",
+   "s": 53.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Digital Platform for Attorneys",
+   "s": 40.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "VENN",
+   "s": 60.0,
+   "h": 15,
+   "d": "61"
+  },
+  {
+   "n": "Verity",
+   "s": 33.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Key Job Belgium",
+   "s": 73.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "MoveUP",
+   "s": 53.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "BEINFLUENCE",
+   "s": 60.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "REDPENCIL",
+   "s": 20.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Starion Technologies",
+   "s": 0.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Nordend",
+   "s": 33.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Mystique",
+   "s": 33.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "SMILE OPEN SOURCE SOLUTIONS",
+   "s": 26.7,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "DIGITEAL",
+   "s": 26.7,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "Doctor Anytime Belgium",
+   "s": 66.7,
+   "h": 15,
+   "d": "63"
+  },
+  {
+   "n": "ITERATES",
+   "s": 13.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "SPARKERS DATA COMPANY",
+   "s": 13.3,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "AXELERA AI",
+   "s": 6.7,
+   "h": 15,
+   "d": "26"
+  },
+  {
+   "n": "CONNECT WAYS TECHNOLOGY",
+   "s": 6.7,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "AI&CO",
+   "s": 40.0,
+   "h": 15,
+   "d": "62"
+  },
+  {
+   "n": "WITS",
+   "s": 35.7,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "MEDICAL DATA TECHNOLOGY",
+   "s": 21.4,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "ATLAS SERVICES BELGIUM",
+   "s": 71.4,
+   "h": 14,
+   "d": "61"
+  },
+  {
+   "n": "MOTIX",
+   "s": 21.4,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "EFI BELGIUM",
+   "s": 35.7,
+   "h": 14,
+   "d": "26"
+  },
+  {
+   "n": "NOESIS SOLUTIONS",
+   "s": 50.0,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "PASSMAN BENELUX",
+   "s": 0.0,
+   "h": 14,
+   "d": "63"
+  },
+  {
+   "n": "DILEOZ",
+   "s": 57.1,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "OVIZIO IMAGING SYSTEMS",
+   "s": 14.3,
+   "h": 14,
+   "d": "keep"
+  },
+  {
+   "n": "TAPPTIC",
+   "s": 35.7,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "LetsBuild Belgium SA",
+   "s": 28.6,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "MintT",
+   "s": 50.0,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "SAPRISTIC BELGIUM",
+   "s": 21.4,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "DEGETEL Belgium",
+   "s": 21.4,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "Lynxcare Clinical Informatics",
+   "s": 64.3,
+   "h": 14,
+   "d": "63"
+  },
+  {
+   "n": "idloom",
+   "s": 35.7,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "Pick-It",
+   "s": 28.6,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "Greenomy",
+   "s": 57.1,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "AFI BELGIUM",
+   "s": 21.4,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "neXat",
+   "s": 21.4,
+   "h": 14,
+   "d": "61"
+  },
+  {
+   "n": "Outpost24",
+   "s": 14.3,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "Oncomfort",
+   "s": 50.0,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "ONE SOURCE CONSULTING",
+   "s": 21.4,
+   "h": 14,
+   "d": "62"
+  },
+  {
+   "n": "Belectro",
+   "s": 0.0,
+   "h": 13,
+   "d": "26"
+  },
+  {
+   "n": "CREASET",
+   "s": 69.2,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Mirion Technologies (Canberra BNLS)",
+   "s": 38.5,
+   "h": 13,
+   "d": "26"
+  },
+  {
+   "n": "Sewan Belgium",
+   "s": 38.5,
+   "h": 13,
+   "d": "63"
+  },
+  {
+   "n": "PLURITECH",
+   "s": 7.7,
+   "h": 13,
+   "d": "63"
+  },
+  {
+   "n": "INFOBEL",
+   "s": 30.8,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Vermeg Belgium",
+   "s": 53.8,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "AUDAXIS",
+   "s": 15.4,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "EBU-UER",
+   "s": 53.8,
+   "h": 13,
+   "d": "61"
+  },
+  {
+   "n": "SOPRA HR SOFTWARE",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "BLUE 2 PURPLE",
+   "s": 61.5,
+   "h": 13,
+   "d": "63"
+  },
+  {
+   "n": "BLUE PIMENTO SERVICES",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Skill Sourcing",
+   "s": 84.6,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "DATADOBI",
+   "s": 23.1,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Engilico Engineering Solutions",
+   "s": 7.7,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "I-LOGICS",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "TRINERGY",
+   "s": 46.2,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "TechIT.be",
+   "s": 7.7,
+   "h": 13,
+   "d": "61"
+  },
+  {
+   "n": "NIBOO",
+   "s": 23.1,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "UgenTec",
+   "s": 23.1,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Luzmo",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "CAITLANN CONSULTING",
+   "s": 23.1,
+   "h": 13,
+   "d": "63"
+  },
+  {
+   "n": "OPP Group",
+   "s": 46.2,
+   "h": 13,
+   "d": "63"
+  },
+  {
+   "n": "Regnology Belgium",
+   "s": 69.2,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Octiva Development",
+   "s": 7.7,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Digital Stork",
+   "s": 0.0,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Consultgen",
+   "s": 0.0,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "D-FINITE",
+   "s": 15.4,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "heta",
+   "s": 46.2,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "RISI",
+   "s": 76.9,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "SIGMA CONSO",
+   "s": 53.8,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "EFESO BELGIUM",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "AMOOBI",
+   "s": 46.2,
+   "h": 13,
+   "d": "58"
+  },
+  {
+   "n": "Kapernikov",
+   "s": 15.4,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "NOVABEE",
+   "s": 7.7,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "SCYTALE TECHNOLOGY",
+   "s": 92.3,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "ArtiQ",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "VOCSens",
+   "s": 30.8,
+   "h": 13,
+   "d": "26"
+  },
+  {
+   "n": "Otamiser Holdings",
+   "s": 23.1,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Unifiber",
+   "s": 38.5,
+   "h": 13,
+   "d": "61"
+  },
+  {
+   "n": "WE ARE UP",
+   "s": 69.2,
+   "h": 13,
+   "d": "61"
+  },
+  {
+   "n": "DATA WIZARDS SOLUTIONS",
+   "s": 15.4,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Aivix",
+   "s": 7.7,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "GO FLOW",
+   "s": 38.5,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "Sparkle Data Consulting",
+   "s": 23.1,
+   "h": 13,
+   "d": "62"
+  },
+  {
+   "n": "WARNER MUSIC BENELUX",
+   "s": 66.7,
+   "h": 12,
+   "d": "26"
+  },
+  {
+   "n": "INFORMEX",
+   "s": 33.3,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "Targa Telematics Belgium",
+   "s": 16.7,
+   "h": 12,
+   "d": "61"
+  },
+  {
+   "n": "NAMAHN",
+   "s": 50.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "DATA INVESTIGATION COMPANY EUROPE",
+   "s": 58.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "MEMNON  ARCHIVING SERVICES",
+   "s": 25.0,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "ONE PARTNER",
+   "s": 50.0,
+   "h": 12,
+   "d": "61"
+  },
+  {
+   "n": "DYNATRACE",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "COMPUTER PERIFERIE EXPERTS",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "BIsoft",
+   "s": 0.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "MK-IT CONSULTING",
+   "s": 0.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "ORGANICA",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Zeta Global",
+   "s": 8.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "BANLIEUES",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Netapp Belgium",
+   "s": 0.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Pyramid",
+   "s": 41.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "UNIWEB",
+   "s": 33.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "CCS Europe NV/SA",
+   "s": 25.0,
+   "h": 12,
+   "d": "26"
+  },
+  {
+   "n": "EXERTUM BELGIUM",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "ICTJOB",
+   "s": 41.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "INTENSUM BELGIUM",
+   "s": 16.7,
+   "h": 12,
+   "d": "58"
+  },
+  {
+   "n": "Tigron",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "WHATEVER",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "ERTMS SOLUTIONS",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "NETAXIS SOLUTIONS",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Nextlane Belux",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Thales DIS Belgium",
+   "s": 8.3,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "INTM BELGIUM",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "OPENGRAPHY",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "AKAMAI TECHNOLOGIES BELGIUM",
+   "s": 8.3,
+   "h": 12,
+   "d": "61"
+  },
+  {
+   "n": "NGiS",
+   "s": 33.3,
+   "h": 12,
+   "d": "61"
+  },
+  {
+   "n": "Ring Twice",
+   "s": 41.7,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "U2U",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Olympus Mobility",
+   "s": 41.7,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "URBANTZ",
+   "s": 50.0,
+   "h": 12,
+   "d": "58"
+  },
+  {
+   "n": "HARRATHI Consulting",
+   "s": 58.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Sentigrate",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "DigiTribe",
+   "s": 58.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "S-MOBILE",
+   "s": 0.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Open Geospatial Consortium Europe",
+   "s": 41.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "NODIS CONSULTING",
+   "s": 33.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "VoxelSensors",
+   "s": 33.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "MATIAS CONSULTING GROUP",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "COMPANYWEB",
+   "s": 66.7,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "ASSYST EUROPE",
+   "s": 0.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "CAR-PASS",
+   "s": 66.7,
+   "h": 12,
+   "d": "63"
+  },
+  {
+   "n": "VEEVA SYSTEMS BELGIUM",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "OUTY CONSULTING",
+   "s": 50.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "PENBOX",
+   "s": 33.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Eurofins GSC IT Management Infrastructure & Security SA",
+   "s": 16.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Lucy in the Cloud",
+   "s": 8.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "SEMACTIC",
+   "s": 41.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "AI-Blox",
+   "s": 33.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "AMA European Consulting",
+   "s": 41.7,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "D-CARBONIZE",
+   "s": 33.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "MALT COMMUNITY BELGIUM",
+   "s": 50.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "addData",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "LittleBigCode Benelux",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "STATERA CONSULTING BELGIUM",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Izix",
+   "s": 58.3,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "Mayten Technologies",
+   "s": 25.0,
+   "h": 12,
+   "d": "62"
+  },
+  {
+   "n": "BLACK BOX NETWORK SERVICES",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Solare IT BELUX",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "DISPRIMO",
+   "s": 36.4,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "SOFTWEL",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "LOGIDRIVE",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "ALLEGRO SOFTWARE",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "INFOSYS CONSULTING (BELGIUM)",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "TEMENOS BELGIUM",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "XinTaS",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "TACO SYSTEMS",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "CROSS INTERNATIONAL",
+   "s": 63.6,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "MangoGem",
+   "s": 27.3,
+   "h": 11,
+   "d": "58"
+  },
+  {
+   "n": "MEDIAWIND",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "BELIGHTED",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "CENIT KEONYS BE SRL",
+   "s": 36.4,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Dekimo Louvain-la-Neuve",
+   "s": 9.1,
+   "h": 11,
+   "d": "26"
+  },
+  {
+   "n": "Emweb",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Industries eXcellence",
+   "s": 18.2,
+   "h": 11,
+   "d": "63"
+  },
+  {
+   "n": "KITRY",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "MagCam",
+   "s": 45.5,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "OPEN-FUTURE",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "SILITECH CONSULTING",
+   "s": 27.3,
+   "h": 11,
+   "d": "63"
+  },
+  {
+   "n": "LOGICALTIC",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Partnership For Advanced Computing In Europe",
+   "s": 81.8,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Conversal",
+   "s": 36.4,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "NALLIAN",
+   "s": 36.4,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "QAdvice",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "XORLOGICS",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Almaviva de Belgique",
+   "s": 45.5,
+   "h": 11,
+   "d": "63"
+  },
+  {
+   "n": "AKL Consulting",
+   "s": 72.7,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "F5 NETWORKS BELGIUM",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "FINTENSY",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "HEETCH BELGIUM",
+   "s": 72.7,
+   "h": 11,
+   "d": "58"
+  },
+  {
+   "n": "MANAGEMENT GOES DIGITAL",
+   "s": 36.4,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "OPAL SOLUTIONS",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "SMART AND EASY",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "SettleMint",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Smovin",
+   "s": 54.5,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "BENELUX-IT",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "ENERGIS",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "TEAMTEL",
+   "s": 18.2,
+   "h": 11,
+   "d": "61"
+  },
+  {
+   "n": "TRIBE AGENCY",
+   "s": 100.0,
+   "h": 11,
+   "d": "61"
+  },
+  {
+   "n": "Montova",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Quantexa",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "STROUWI",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Blue Yonder Belgium",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "SYNTHETIS METALS",
+   "s": 9.1,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "UBIDATA",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "VERIXI",
+   "s": 27.3,
+   "h": 11,
+   "d": "63"
+  },
+  {
+   "n": "THINKNEXT",
+   "s": 63.6,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "OUAT !",
+   "s": 27.3,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "RELU",
+   "s": 18.2,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Innovation Lab",
+   "s": 63.6,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Arcwide Belgium",
+   "s": 45.5,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "Netskope Belgium",
+   "s": 0.0,
+   "h": 11,
+   "d": "62"
+  },
+  {
+   "n": "INSANI",
+   "s": 0.0,
+   "h": 11,
+   "d": "61"
+  },
+  {
+   "n": "D.S.I.",
+   "s": 10.0,
+   "h": 10,
+   "d": "63"
+  },
+  {
+   "n": "BMC Software Belgium",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SYSCOM",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "HEYMANS AND VAN ENGELAND ASSOCIATES",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "PIMM Engineering",
+   "s": 0.0,
+   "h": 10,
+   "d": "26"
+  },
+  {
+   "n": "MICRO CHANNEL HARDWARE",
+   "s": 40.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "IDEAL SYSTEMS",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "MAINSYS GROUP",
+   "s": 80.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "EXPEDIA",
+   "s": 60.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "IP NEXIA",
+   "s": 20.0,
+   "h": 10,
+   "d": "61"
+  },
+  {
+   "n": "SIMBIOS",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "VERZEKERINGEN",
+   "s": 70.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "XEDIS",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "VISTA SECURITY",
+   "s": 20.0,
+   "h": 10,
+   "d": "26"
+  },
+  {
+   "n": "CHEMADVISOR EUROPE",
+   "s": 50.0,
+   "h": 10,
+   "d": "63"
+  },
+  {
+   "n": "MeTech",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "XAOP",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "MANYTHINK",
+   "s": 50.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Tradeshift Belgium",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SWORD INTEGRA",
+   "s": 50.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Freedelity",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "NET COMPUTER GROUP",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "NEXIOS TN",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "26lights",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Blue Planet Academy & Consulting",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "INFOCURA",
+   "s": 0.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "NUBERA",
+   "s": 0.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SOLUDOC",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "iClinique",
+   "s": 0.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "NorthStone",
+   "s": 0.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Webhero",
+   "s": 80.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "ZENSOR",
+   "s": 20.0,
+   "h": 10,
+   "d": "63"
+  },
+  {
+   "n": "CANCOM Public",
+   "s": 40.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "DUNEIT",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SOGESTRIM",
+   "s": 70.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Ticketmatic België",
+   "s": 60.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "BDG COMPANY",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Lenovo Global Technology Belgium",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "PENCIL42",
+   "s": 40.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SYNFAC",
+   "s": 60.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "2ememain Belgium",
+   "s": 70.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "MEDIANE BENELUX",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "CompliData",
+   "s": 0.0,
+   "h": 10,
+   "d": "63"
+  },
+  {
+   "n": "InvestSuite",
+   "s": 40.0,
+   "h": 10,
+   "d": "58"
+  },
+  {
+   "n": "Avenir Reply",
+   "s": 40.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "PLANNINGFORCE",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "DO IT FAST",
+   "s": 50.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Cloud Software Group Belgium",
+   "s": 30.0,
+   "h": 10,
+   "d": "63"
+  },
+  {
+   "n": "ASSURCARD",
+   "s": 70.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "VECTOR BROSS",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "TEAM SOLUTIONS",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "IMENGINE",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "MOJUICE",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "ICE TECHNOLOGIES",
+   "s": 40.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "NUMFLO",
+   "s": 10.0,
+   "h": 10,
+   "d": "58"
+  },
+  {
+   "n": "STILAN",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "BE IP",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SPADE",
+   "s": 60.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "BIG WATER CONSULTING",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "INTERNATIONAL SOFTWARE COMPANY",
+   "s": 40.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Cognizone",
+   "s": 50.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "SAPINA",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "DIGICOMMERCE BENELUX",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "DIGITAL UNITY",
+   "s": 20.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "INSENS",
+   "s": 0.0,
+   "h": 10,
+   "d": "58"
+  },
+  {
+   "n": "SKALIS BELGIUM SRL",
+   "s": 30.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Partena Outsourcing Solutions",
+   "s": 70.0,
+   "h": 10,
+   "d": "62"
+  },
+  {
+   "n": "Sonova Consumer Hearing Belgium",
+   "s": 40.0,
+   "h": 10,
+   "d": "26"
+  },
+  {
+   "n": "Belgium Tower Partners",
+   "s": 40.0,
+   "h": 10,
+   "d": "61"
+  },
+  {
+   "n": "VIVERIS BELGIUM",
+   "s": 10.0,
+   "h": 10,
+   "d": "62"
+  }
+ ],
+ "funnel": [
+  {
+   "n": 25710,
+   "en": "In the register: an ICT code and a seat in the study area",
+   "fr": "Dans le registre : un code TIC et un siège dans la zone d'étude"
+  },
+  {
+   "n": 25687,
+   "en": "Successfully queried at the National Bank",
+   "fr": "Interrogées avec succès à la Banque nationale"
+  },
+  {
+   "n": 4152,
+   "en": "Filed accounts with a breakdown by sex",
+   "fr": "Ont déposé des comptes ventilés par sexe"
+  },
+  {
+   "n": 1252,
+   "en": "Employ ten people or more",
+   "fr": "Emploient dix personnes ou plus"
+  },
+  {
+   "n": 1246,
+   "en": "Pass every data-quality check",
+   "fr": "Passent tous les contrôles de qualité"
+  },
+  {
+   "n": 1245,
+   "en": "Filed at least once between 2021 and 2025",
+   "fr": "Ont déposé au moins une fois entre 2021 et 2025"
+  },
+  {
+   "n": 1108,
+   "en": "Registered seat inside the study area (Brussels, Leuven, Brabant)",
+   "fr": "Siège social dans la zone d'étude (Bruxelles, Louvain, Brabant)"
+  },
+  {
+   "n": 825,
+   "en": "ICT is a registered main activity, plus a keep-list",
+   "fr": "Les TIC sont l'activité principale, plus une liste d'ajouts"
+  },
+  {
+   "n": 817,
+   "en": "Minus a drop-list: the study population",
+   "fr": "Moins une liste de retraits : la population étudiée"
+  }
+ ],
+ "funnel_coverage": 99.91,
+ "nace": [
+  {
+   "code": "26110",
+   "div": "26",
+   "en": "Manufacture of electronic components",
+   "firms": 16,
+   "staff": 1496
+  },
+  {
+   "code": "26120",
+   "div": "26",
+   "en": "Manufacture of loaded electronic boards",
+   "firms": 2,
+   "staff": 250
+  },
+  {
+   "code": "26200",
+   "div": "26",
+   "en": "Manufacture of computers and peripheral equipment",
+   "firms": 7,
+   "staff": 286
+  },
+  {
+   "code": "26300",
+   "div": "26",
+   "en": "Manufacture of communication equipment",
+   "firms": 11,
+   "staff": 350
+  },
+  {
+   "code": "26400",
+   "div": "26",
+   "en": "Manufacture of consumer electronics",
+   "firms": 6,
+   "staff": 122
+  },
+  {
+   "code": "58210",
+   "div": "58",
+   "en": "Publishing of computer games",
+   "firms": 0,
+   "staff": 0
+  },
+  {
+   "code": "58290",
+   "div": "58",
+   "en": "Other software publishing",
+   "firms": 25,
+   "staff": 2427
+  },
+  {
+   "code": "61100",
+   "div": "61",
+   "en": "Wired telecommunications activities",
+   "firms": 56,
+   "staff": 6257
+  },
+  {
+   "code": "61200",
+   "div": "61",
+   "en": "Wireless telecommunications activities",
+   "firms": 15,
+   "staff": 928
+  },
+  {
+   "code": "61900",
+   "div": "61",
+   "en": "Other telecommunications activities",
+   "firms": 0,
+   "staff": 0
+  },
+  {
+   "code": "62100",
+   "div": "62",
+   "en": "Computer programming activities",
+   "firms": 301,
+   "staff": 14201
+  },
+  {
+   "code": "62200",
+   "div": "62",
+   "en": "Computer consultancy activities",
+   "firms": 404,
+   "staff": 21601
+  },
+  {
+   "code": "62900",
+   "div": "62",
+   "en": "Other IT and computer service activities",
+   "firms": 78,
+   "staff": 3877
+  },
+  {
+   "code": "63100",
+   "div": "63",
+   "en": "Data processing, hosting; web portals",
+   "firms": 80,
+   "staff": 6990
+  }
+ ],
+ "multi_code": 67,
+ "keep_no_code": [
+  "MATERIALISE",
+  "SIEMENS INDUSTRY SOFTWARE",
+  "ZETES",
+  "DASSAULT SYSTEMES BELGIUM",
+  "OVIZIO IMAGING SYSTEMS"
+ ]
+}
