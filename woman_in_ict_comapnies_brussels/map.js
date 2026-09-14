@@ -40,7 +40,7 @@
       evolutionLabel: "\u00c9volution",
       ptChartTitle: "Temps plein / temps partiel",
       ftLabel: "Temps plein", ptLabel: "Temps partiel",
-      distHint: "Glissez sur le graphique pour ne garder qu'une partie de l'échelle.",
+      distHint: "Glissez sur l'échelle pour définir votre périmètre.",
       segOverview: "Aperçu", colMen: "Hommes",
       bestHere: "Les plus paritaires", worstHere: "Les moins paritaires",
       allHere: "Toutes les entreprises", ptShareHere: "Part des femmes parmi les temps partiels",
@@ -110,7 +110,7 @@
       evolutionLabel: "Evolution",
       ptChartTitle: "Full-time / part-time",
       ftLabel: "Full-time", ptLabel: "Part-time",
-      distHint: "Drag across the chart to keep only part of the scale.",
+      distHint: "Drag across the scale to define your scope.",
       segOverview: "Overview", colMen: "Men",
       bestHere: "Most balanced here", worstHere: "Least balanced here",
       allHere: "All companies", ptShareHere: "Women as a share of part-timers",
@@ -447,15 +447,12 @@
         .style("margin", "22px 0 4px").text(t("ptTitle"));
       [[t("ptMen"), fmtPc(pt.men_rate)],
        [t("ptWomen"), fmtPc(pt.women_rate), true],
-       [t("ptOfAll"), fmtPc(pt.women_of_parttime)],
-       [t("ptOfStaff"), fmtPc(pt.women_of_staff)]
+       [t("ptOfAll"), fmtPc(pt.women_of_parttime)]
       ].forEach(function (r) {
         var st_ = side.append("div").attr("class", "stat");
         st_.append("div").attr("class", "k").text(r[0]);
         st_.append("div").attr("class", "v" + (r[2] ? " gold" : "")).text(r[1]);
       });
-      side.append("p").attr("class", "hint").style("border", "none")
-        .style("padding-top", "8px").text(t("ptHint"));
     }
 
     section(side, t("trend"), areaTrend(live));
@@ -1760,7 +1757,7 @@
   }
 
   tip = d3.select("#tip");
-  d3.json("./bxl-data.json?v=2").then(build).catch(function (err) {
+  d3.json("./bxl-data.json?v=3").then(build).catch(function (err) {
     d3.select("#side").html("<h2>Data failed to load</h2><p class='sub'>" +
       err.message + "</p>");
     console.error(err);
