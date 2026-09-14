@@ -32,19 +32,19 @@
     en: {
       dept: "Data journalism",
       kicker: "Women on Belgian ICT payrolls · five years of filed accounts",
-      heroMapBtn: "Jump to the interactive map",
+      heroMapBtn: "See the ICT companies on a map",
       title: "The Classroom Is Changing Faster Than the Office",
-      standfirst: "Every company in Belgium has to report how many men and how many women it employs. We read five years of those reports for {companies} technology employers around Brussels. Women are {share}% of the people on their payrolls, and that is the kindest number in this study.",
+      standfirst: "Every company in Belgium has to report how many men and how many women it employs. I read five years of those reports for {companies} technology employers around Brussels. Women are {share}% of the people on their payrolls, and that is the kindest number in this study.",
       bylineSrc: "Source · National Bank of Belgium, Eurostat",
       bylineScope: "{companies} employers · {staff} people · {records} filings · {y0} to {y1}",
 
-      k1v: "{share}%", k1k: "of the people employed by {companies} technology companies are women",
-      k2v: "{gradTimes}×", k2k: "as many women finished an ICT degree in Belgium in {gradTo} as in {gradFrom}",
-      k3v: "+{panelDelta}", k3k: "percentage points: all the movement at the {panelFirms} employers we can follow from {y0} to {y1}",
-      k4v: "{zeroWomen}", k4k: "of these companies employ no women at all",
+      k1v: "{shareR}%", k1k: "of the people employed by {companies} technology companies are women",
+      k2v: "{speedRatio}×", k2k: "faster in the classroom than on the payroll",
+      k3v: "{ptRatio}×", k3k: "as likely a woman works part-time as a man",
+      k4v: "{zeroWomen}", k4k: "companies employ no women at all",
 
       /* ---- 00 */
-      a0n: "00 · How we counted",
+      a0n: "00 · How I counted",
       a0h: "{funnelTop} companies in, {companies} out",
       a0lede: "Everything here rests on one source and a handful of filters. This section sets both out before any finding.",
 
@@ -52,16 +52,16 @@
       figFunT: "From the company register to the study population",
       figFunS: "Companies still standing after each filter",
       nFun: "Funnel width is on a square-root scale, so the narrow lower stages stay visible. The counts beside it are exact.",
-      a0p2: "One step does almost all the work. Of the {funnelQueried} companies we could query, only {funnelFiled} file accounts detailed enough to count men and women separately, roughly one in six. Belgian law requires that breakdown from larger employers and lets the smallest file an abridged return without it. Everything after that step is fine-tuning: the size threshold, the quality checks, the window of years, the seat test, and the two hand-checked lists.",
+      a0p2: "One step does almost all the work. Of the {funnelQueried} companies I could query, only {funnelFiled} file accounts detailed enough to count men and women separately, roughly one in six. Belgian law requires that breakdown from larger employers and lets the smallest file an abridged return without it. Everything after that step is fine-tuning: the size threshold, the quality checks, the window of years, the seat test, and the two hand-checked lists.",
 
-      a0h2: "We counted people, not job titles",
+      a0h2: "I counted people, not job titles",
       a0p3: "A company reports how many men and how many women it employed at the end of its financial year. It never says what those people do. So a woman counted here might be a developer, an engineer, an accountant, a recruiter or a receptionist.",
       figFrameT: "{staff} people, split by sex. What they do is not in the filing.",
       figFrameS: "Latest filing for each of the {companies} companies",
       nFrame: "Companies do report staff by job category and by education level, in separate boxes on the same form. Neither box is ever crossed with sex.",
 
       a0h3: "Defining the ICT sector",
-      a0p4: "We searched for fourteen activity codes, which fall into five families. Together those five families are the standard definition of the ICT sector used by Eurostat and the Organisation for Economic Co-operation and Development. Nothing we collected falls outside it.",
+      a0p4: "I searched for fourteen activity codes, which fall into five families. Together those five families are the standard definition of the ICT sector used by Eurostat and the Organisation for Economic Co-operation and Development. Nothing I collected falls outside it.",
       a0p5: "Two parts of the standard definition were left out on purpose, because they resell and repair rather than build: wholesale of computer equipment, and computer repair.",
       defT: "The study in two lines",
       defYes: "<span class=\"yes\">What it measures:</span> the share of women among everyone employed by {companies} ICT companies with at least ten staff, based in Brussels, Brabant or the Leuven area.",
@@ -77,7 +77,7 @@
              p1: "In {gradFrom}, {gradW0} of the {gradT0} people finishing a Belgian ICT degree were women. By {gradTo} it was <strong>{gradW1} out of {gradT1}</strong>.",
              p2: "Three times as many women, in a field that itself doubled in size. The share went from {gradS0}% to {gradS1}%." },
       sp2: { label: "On the payroll",
-             p1: "{panelFirms} of our {companies} employers filed accounts in both {y0} and {y1}.",
+             p1: "{panelFirms} of the {companies} employers filed accounts in both {y0} and {y1}.",
              p2: "Their female share went from {panelS0}% to <strong>{panelS1}%</strong>. That is {panelDelta} percentage points in {panelSpan} years." },
       sp3: { label: "The gap between them",
              p1: "Over the same years the graduate share gained {gradPerYear} of a point a year. The payroll share gained {panelPerYear}. The classroom is moving about <strong>{speedRatio} times faster</strong>.",
@@ -118,7 +118,7 @@
       /* ---- 05 */
       a5n: "04 · Sector and size",
       a5h: "Neither the type of company nor its size changes the answer",
-      a5lede: "Perhaps the figure is low because of which activities we chose to include. Or perhaps small companies pull it down. Both are worth testing, and neither turns out to explain it.",
+      a5lede: "Perhaps the figure is low because of which activities I chose to include. Or perhaps small companies pull it down. Both are worth testing, and neither turns out to explain it.",
       figMixT1: "All five ICT families sit in a band {sectorSpread} points wide",
       figMixS1: "Female share of payroll, counted in people",
       figMixT2: "Three size classes, {sizeSpread} points apart, and not in order",
@@ -155,24 +155,24 @@
       mc3: { label: "Way three", big: "{mechHired}",
              p1: "companies gained more than two points <strong>and actually added women</strong>. This is the only one of the three that means what a reader assumes.",
              p2: "{exHiredName} went from {exHiredW0} to {exHiredW1} women, and its share from {exHiredS0}% to {exHiredS1}%.",
-             p3: "The three are indistinguishable from a percentage alone, which is why our map shows headcounts next to every share." },
+             p3: "The three are indistinguishable from a percentage alone, which is why my map shows headcounts next to every share." },
       nMech1: "First and last filing for each company, which is not always {y0} and {y1}.",
       nMech2: "Bars are headcount. The share is the female share of headcount at each end.",
       nMech3: "The three groups use different conditions, so a company falls into at most one.",
-      a6p2: "Step back from the examples and the striking thing is how little moves at all. Of the {withHistory} employers with a history, {evoWithin2} of them, {evoWithin2pc}%, ended within two percentage points of where they started. At the rate the {panelFirms} companies we can follow are actually moving, simple arithmetic puts an even split about {yearsToParity} years away. That describes the present pace. It is not a prediction.",
+      a6p2: "Step back from the examples and the striking thing is how little moves at all. Of the {withHistory} employers with a history, {evoWithin2} of them, {evoWithin2pc}%, ended within two percentage points of where they started. At the rate the {panelFirms} companies I can follow are actually moving, simple arithmetic puts an even split about {yearsToParity} years away. That describes the present pace. It is not a prediction.",
 
       /* ---- 07 */
       /* ---- 06 · in closing */
       a8n: "06 · In closing",
       a8h: "What five years of filings settle, and what they leave open",
       a8lede: "This study can be pushed no further than its source allows. Here is the edge of it.",
-      a8p1: "Start with what is not in doubt, because it is arithmetic on figures the companies published themselves. Women are {share}% of the people employed by {companies} ICT employers around Brussels. That figure does not move when you cut it by activity, where the five families span {sectorSpread} percentage points, nor by size, where the three classes span {sizeSpread} and do not even fall in order. At the {panelFirms} employers we can follow from {y0} to {y1} it rose {panelDelta} points. It is low, it is flat, and it is flat everywhere.",
+      a8p1: "Start with what is not in doubt, because it is arithmetic on figures the companies published themselves. Women are {share}% of the people employed by {companies} ICT employers around Brussels. That figure does not move when you cut it by activity, where the five families span {sectorSpread} percentage points, nor by size, where the three classes span {sizeSpread} and do not even fall in order. At the {panelFirms} employers I can follow from {y0} to {y1} it rose {panelDelta} points. It is low, it is flat, and it is flat everywhere.",
       a8h1: "What the filings settle",
       a8p2: "Three things. First, that the shortage of women is not confined to one corner of the sector: every family and every size class sits within a few points of the same low number. Second, that the movement which does exist is slow, about {panelPerYear} of a point a year, the sort of rate that needs decades rather than budgets. Third, and least comfortable, that a company's percentage going up is not evidence it hired anyone: {mechFlat} employers improved theirs while employing no more women than before.",
       a8h2: "What they leave open",
-      a8p3: "Everything about why. The filings carry no job titles, so they cannot say whether women are absent from technical roles or spread thinly across all of them. They carry no pay and no seniority, so they cannot say who is progressing. They count heads at a closing date, so they cannot say who left during the year, or why. Anyone claiming to know those things from this source is guessing, and we would rather say so than guess alongside them.",
+      a8p3: "Everything about why. The filings carry no job titles, so they cannot say whether women are absent from technical roles or spread thinly across all of them. They carry no pay and no seniority, so they cannot say who is progressing. They count heads at a closing date, so they cannot say who left during the year, or why. Anyone claiming to know those things from this source is guessing, and I would rather say so than guess alongside them.",
       a8last: "One thing worth watching",
-      a8p4: "{gradTimesN} times as many women finished a Belgian ICT degree in {gradTo} as in {gradFrom}. They are old enough to be working now. Next year these same {companies} companies file their {yNext} accounts, and we will count again.",
+      a8p4: "{gradTimesN} times as many women finished a Belgian ICT degree in {gradTo} as in {gradFrom}. They are old enough to be working now. Next year these same {companies} companies file their {yNext} accounts, and I will count again.",
 
       /* ---- the embedded map ---- */
       a9n: "↓ Explore",
@@ -183,7 +183,7 @@
       /* ---- annex */
       a7n: "Annex · The employers, named",
       a7h: "These are filed figures, not survey answers",
-      a7lede: "Every number below was published by the company itself under a legal obligation, and can be checked against the National Bank's register. No opt-in, no opt-out.",
+      a7lede: "Every number below was published by the company itself under a legal obligation, and can be checked against the National Bank's register.",
       a7p2: "Among the {sizeableN} employers with 100 staff or more, the range runs from one end of the sector to the other.",
       ctaT: "Open the interactive map",
       ctaS: "{companies} employers, searchable by company or commune, with female share, part-time gap and five-year movement",
@@ -203,18 +203,18 @@
     fr: {
       dept: "Journalisme de données",
       kicker: "Les femmes dans les effectifs TIC belges · cinq ans de comptes déposés",
-      heroMapBtn: "Aller à la carte interactive",
+      heroMapBtn: "Voir les entreprises TIC sur la carte",
       title: "Les études changent plus vite que les entreprises",
-      standfirst: "Chaque entreprise belge doit déclarer combien d'hommes et de femmes elle emploie. Nous avons lu cinq ans de ces déclarations pour {companies} employeurs technologiques autour de Bruxelles. Les femmes représentent {share} % des personnes qu'ils emploient, et c'est le chiffre le plus flatteur de cette étude.",
+      standfirst: "Chaque entreprise belge doit déclarer combien d'hommes et de femmes elle emploie. J'ai lu cinq ans de ces déclarations pour {companies} employeurs technologiques autour de Bruxelles. Les femmes représentent {share} % des personnes qu'ils emploient, et c'est le chiffre le plus flatteur de cette étude.",
       bylineSrc: "Sources · Banque nationale de Belgique, Eurostat",
       bylineScope: "{companies} employeurs · {staff} personnes · {records} dépôts · {y0} à {y1}",
 
-      k1v: "{share} %", k1k: "des personnes employées par {companies} entreprises technologiques sont des femmes",
-      k2v: "{gradTimes}×", k2k: "plus de femmes diplômées en informatique en Belgique en {gradTo} qu'en {gradFrom}",
-      k3v: "+{panelDelta}", k3k: "points de pourcentage : tout le mouvement chez les {panelFirms} employeurs suivis de {y0} à {y1}",
-      k4v: "{zeroWomen}", k4k: "de ces entreprises n'emploient aucune femme",
+      k1v: "{shareR} %", k1k: "des personnes employées par {companies} entreprises technologiques sont des femmes",
+      k2v: "{speedRatio}×", k2k: "plus vite dans les études que dans les effectifs",
+      k3v: "{ptRatio}×", k3k: "plus de chances qu'une femme travaille à temps partiel qu'un homme",
+      k4v: "{zeroWomen}", k4k: "entreprises n'emploient aucune femme",
 
-      a0n: "00 · Comment nous avons compté",
+      a0n: "00 · Comment j'ai compté",
       a0h: "{funnelTop} entreprises au départ, {companies} à l'arrivée",
       a0lede: "Tout repose ici sur une source et une poignée de filtres. Cette section les expose avant tout résultat.",
 
@@ -224,14 +224,14 @@
       nFun: "La largeur de l'entonnoir suit une échelle en racine carrée, pour que les étapes basses restent visibles. Les effectifs indiqués à côté sont exacts.",
       a0p2: "Une seule étape fait presque tout le travail. Sur les {funnelQueried} entreprises interrogeables, seules {funnelFiled} déposent des comptes assez détaillés pour compter séparément les hommes et les femmes, soit environ une sur six. La loi belge impose cette ventilation aux employeurs les plus grands et laisse les plus petits déposer un schéma abrégé qui s'en dispense. Tout ce qui suit relève du réglage fin : le seuil de taille, les contrôles de qualité, la fenêtre d'années, le test du siège et les deux listes vérifiées à la main.",
 
-      a0h2: "Nous avons compté des personnes, pas des métiers",
+      a0h2: "J'ai compté des personnes, pas des métiers",
       a0p3: "Une entreprise déclare combien d'hommes et de femmes elle employait à la clôture de son exercice. Elle ne dit jamais ce que ces personnes font. Une femme comptée ici peut donc être développeuse, ingénieure, comptable, recruteuse ou réceptionniste.",
       figFrameT: "{staff} personnes, réparties par sexe. Ce qu'elles font ne figure pas dans le dépôt.",
       figFrameS: "Dernier dépôt de chacune des {companies} entreprises",
       nFrame: "Les entreprises ventilent bien le personnel par catégorie professionnelle et par niveau de formation, dans d'autres cases du même formulaire. Aucune n'est jamais croisée avec le sexe.",
 
       a0h3: "Définir le secteur des TIC",
-      a0p4: "Nous avons cherché quatorze codes d'activité, répartis en cinq familles. Ensemble, ces cinq familles constituent la définition standard du secteur des TIC utilisée par Eurostat et l'Organisation de coopération et de développement économiques. Rien de ce que nous avons collecté n'en sort.",
+      a0p4: "J'ai cherché quatorze codes d'activité, répartis en cinq familles. Ensemble, ces cinq familles constituent la définition standard du secteur des TIC utilisée par Eurostat et l'Organisation de coopération et de développement économiques. Rien de ce que j'ai collecté n'en sort.",
       a0p5: "Deux parties de la définition standard ont été écartées volontairement, parce qu'elles revendent et réparent au lieu de produire : le commerce de gros de matériel informatique et la réparation d'ordinateurs.",
       defT: "L'étude en deux lignes",
       defYes: "<span class=\"yes\">Ce qu'elle mesure :</span> la part des femmes parmi toutes les personnes employées par {companies} entreprises TIC de dix salariés ou plus, établies à Bruxelles, dans le Brabant ou la région de Louvain.",
@@ -246,7 +246,7 @@
              p1: "En {gradFrom}, {gradW0} des {gradT0} personnes sortant d'un cursus TIC belge étaient des femmes. En {gradTo}, c'était <strong>{gradW1} sur {gradT1}</strong>.",
              p2: "Trois fois plus de femmes, dans un domaine qui a lui-même doublé. La part est passée de {gradS0} % à {gradS1} %." },
       sp2: { label: "Dans les effectifs",
-             p1: "{panelFirms} de nos {companies} employeurs ont déposé des comptes en {y0} et en {y1}.",
+             p1: "{panelFirms} des {companies} employeurs ont déposé des comptes en {y0} et en {y1}.",
              p2: "Leur part féminine est passée de {panelS0} % à <strong>{panelS1} %</strong>. Soit {panelDelta} points de pourcentage en {panelSpan} ans." },
       sp3: { label: "L'écart entre les deux",
              p1: "Sur les mêmes années, la part des diplômées a gagné {gradPerYear} point par an. Celle des effectifs {panelPerYear}. Les études avancent environ <strong>{speedRatio} fois plus vite</strong>.",
@@ -284,7 +284,7 @@
 
       a5n: "04 · Secteur et taille",
       a5h: "Ni le type d'entreprise ni sa taille ne changent la réponse",
-      a5lede: "Peut-être le chiffre est-il bas à cause des activités que nous avons retenues. Ou peut-être les petites entreprises le tirent-elles vers le bas. Les deux hypothèses méritent un test, et aucune n'explique quoi que ce soit.",
+      a5lede: "Peut-être le chiffre est-il bas à cause des activités que j'ai retenues. Ou peut-être les petites entreprises le tirent-elles vers le bas. Les deux hypothèses méritent un test, et aucune n'explique quoi que ce soit.",
       figMixT1: "Les cinq familles TIC tiennent dans une bande de {sectorSpread} points",
       figMixS1: "Part féminine des effectifs, comptée en personnes",
       figMixT2: "Trois classes de taille, {sizeSpread} points d'écart, et pas dans l'ordre",
@@ -320,11 +320,11 @@
       mc3: { label: "Façon trois", big: "{mechHired}",
              p1: "entreprises ont gagné plus de deux points <strong>en ajoutant réellement des femmes</strong>. C'est le seul des trois cas qui signifie ce qu'un lecteur croit lire.",
              p2: "{exHiredName} est passée de {exHiredW0} à {exHiredW1} femmes, et sa part de {exHiredS0} % à {exHiredS1} %.",
-             p3: "Les trois cas sont indiscernables à partir du seul pourcentage. C'est pourquoi notre carte affiche les effectifs à côté de chaque part." },
+             p3: "Les trois cas sont indiscernables à partir du seul pourcentage. C'est pourquoi ma carte affiche les effectifs à côté de chaque part." },
       nMech1: "Premier et dernier dépôt de chaque entreprise, qui ne sont pas toujours {y0} et {y1}.",
       nMech2: "Les barres sont des effectifs. La part est la part féminine des effectifs à chaque extrémité.",
       nMech3: "Les trois groupes reposent sur des conditions différentes : une entreprise ne relève que d'un seul au plus.",
-      a6p2: "En s'éloignant des exemples, le plus frappant est le peu de mouvement. Sur les {withHistory} employeurs ayant un historique, {evoWithin2}, soit {evoWithin2pc} %, ont fini à moins de deux points de leur point de départ. Au rythme réel des {panelFirms} entreprises que nous pouvons suivre, un simple calcul place le partage à égalité dans environ {yearsToParity} ans. Cela décrit le rythme actuel. Ce n'est pas une prévision.",
+      a6p2: "En s'éloignant des exemples, le plus frappant est le peu de mouvement. Sur les {withHistory} employeurs ayant un historique, {evoWithin2}, soit {evoWithin2pc} %, ont fini à moins de deux points de leur point de départ. Au rythme réel des {panelFirms} entreprises que je peux suivre, un simple calcul place le partage à égalité dans environ {yearsToParity} ans. Cela décrit le rythme actuel. Ce n'est pas une prévision.",
 
       a8n: "06 · Pour finir",
       a8h: "Ce que cinq ans de dépôts tranchent, et ce qu'ils laissent ouvert",
@@ -333,9 +333,9 @@
       a8h1: "Ce que les dépôts tranchent",
       a8p2: "Trois choses. D'abord que le manque de femmes ne se loge pas dans un coin du secteur : chaque famille et chaque classe de taille se tient à quelques points du même chiffre bas. Ensuite que le mouvement existant est lent, environ {panelPerYear} point par an, un rythme qui se compte en décennies plutôt qu'en budgets. Enfin, et c'est le moins confortable, qu'un pourcentage en hausse ne prouve aucun recrutement : {mechFlat} employeurs ont amélioré le leur sans employer une femme de plus.",
       a8h2: "Ce qu'ils laissent ouvert",
-      a8p3: "Tout ce qui touche au pourquoi. Les dépôts ne portent aucun intitulé de poste : impossible de dire si les femmes sont absentes des rôles techniques ou réparties en petit nombre sur tous. Ils ne portent ni salaire ni ancienneté : impossible de dire qui progresse. Ils comptent des têtes à une date de clôture : impossible de dire qui est parti en cours d'année, ni pourquoi. Quiconque prétend le savoir à partir de cette source devine, et nous préférons le dire plutôt que deviner avec lui.",
+      a8p3: "Tout ce qui touche au pourquoi. Les dépôts ne portent aucun intitulé de poste : impossible de dire si les femmes sont absentes des rôles techniques ou réparties en petit nombre sur tous. Ils ne portent ni salaire ni ancienneté : impossible de dire qui progresse. Ils comptent des têtes à une date de clôture : impossible de dire qui est parti en cours d'année, ni pourquoi. Quiconque prétend le savoir à partir de cette source devine, et je préfère le dire plutôt que deviner avec lui.",
       a8last: "Une chose à surveiller",
-      a8p4: "{gradTimesN} fois plus de femmes ont terminé un cursus TIC belge en {gradTo} qu'en {gradFrom}. Elles ont aujourd'hui l'âge de travailler. L'an prochain, ces mêmes {companies} entreprises déposeront leurs comptes {yNext}, et nous compterons à nouveau.",
+      a8p4: "{gradTimesN} fois plus de femmes ont terminé un cursus TIC belge en {gradTo} qu'en {gradFrom}. Elles ont aujourd'hui l'âge de travailler. L'an prochain, ces mêmes {companies} entreprises déposeront leurs comptes {yNext}, et je compterai à nouveau.",
 
       a9n: "↓ Explorer",
       a9h: "Toutes les données, sur une seule carte",
@@ -344,12 +344,12 @@
 
       a7n: "Annexe · Les employeurs, nommés",
       a7h: "Ce sont des chiffres déposés, pas des réponses à un sondage",
-      a7lede: "Chaque chiffre ci-dessous a été publié par l'entreprise elle-même en vertu d'une obligation légale, et peut être vérifié auprès de la Banque nationale. Ni adhésion ni retrait possibles.",
+      a7lede: "Chaque chiffre ci-dessous a été publié par l'entreprise elle-même en vertu d'une obligation légale, et peut être vérifié auprès de la Banque nationale.",
       a7p2: "Parmi les {sizeableN} employeurs de 100 salariés ou plus, l'éventail va d'un extrême du secteur à l'autre.",
       ctaT: "Ouvrir la carte interactive",
       ctaS: "{companies} employeurs, recherche par entreprise ou par commune, avec part féminine, écart de temps partiel et évolution sur cinq ans",
 
-      mTitle: "Comment nous avons procédé",
+      mTitle: "Comment j'ai procédé",
       mSrcT: "Sources",
       mSrcP: "Bilans sociaux déposés à la Banque nationale de Belgique : effectif total, puis hommes et femmes séparément à la date de clôture, chacun ventilé en temps plein et temps partiel. Identité et codes d'activité : Banque-Carrefour des Entreprises. Série des diplômées : Eurostat.",
       mWhoT: "Quelles entreprises",
@@ -448,7 +448,8 @@
     return {
       companies: nf(A.companies), staff: nf(A.staff), records: nf(A.records),
       y0: A.years[0], y1: A.years[A.years.length - 1],
-      share: nf(A.share, 1), medianCompany: nf(A.median_company, 1),
+      share: nf(A.share, 1), shareR: String(Math.round(A.share)),
+      medianCompany: nf(A.median_company, 1),
       ptMen: nf(A.pt_men, 1), ptWomen: nf(A.pt_women, 1),
       ptRatio: nf(A.pt_ratio, 1), ptWomenOfAll: nf(A.pt_women_of_all, 1),
       ptWomenCount: nf(A.pt_women_count), ptMenCount: nf(A.pt_men_count),
@@ -1144,7 +1145,15 @@
     if (skip) {
       skip.addEventListener("click", function () {
         var target = document.getElementById("mapfinale");
-        if (target) target.scrollIntoView({ behavior: "instant", block: "start" });
+        if (!target) return;
+        var y = target.getBoundingClientRect().top
+              + (window.pageYOffset || document.documentElement.scrollTop || 0);
+        // force a non-smooth jump regardless of the page's CSS scroll-behavior,
+        // and avoid the "instant" enum that some browsers refuse
+        var root = document.documentElement, prev = root.style.scrollBehavior;
+        root.style.scrollBehavior = "auto";
+        window.scrollTo(0, y);
+        root.style.scrollBehavior = prev || "";
       });
     }
     window.addEventListener("resize", function () {

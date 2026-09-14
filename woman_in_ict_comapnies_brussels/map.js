@@ -26,7 +26,7 @@
   var I18N = {
     fr: {
       title: "Les femmes dans les effectifs TIC, employeur par employeur",
-      standfirst: "Chaque entreprise belge déclare ses effectifs par sexe. Nous avons lu cinq ans de dépôts pour 817 employeurs du secteur des TIC à Bruxelles, du Brabant et de Louvain. Les femmes y sont 28 % du personnel, et 2,5 fois plus souvent à temps partiel que leurs collègues masculins.",
+      standfirst: "Chaque entreprise belge déclare ses effectifs par sexe. J'ai lu cinq ans de dépôts pour 817 employeurs du secteur des TIC à Bruxelles, du Brabant et de Louvain. Les femmes y sont 28 % du personnel, et 2,5 fois plus souvent à temps partiel que leurs collègues masculins.",
       noteBcr: "",
       noteMetro: "",
       year: "Exercice", sector: "Secteur", size: "Taille de l'entreprise",
@@ -95,7 +95,7 @@
     },
     en: {
       title: "Women on ICT Payrolls, Employer by Employer",
-      standfirstA: "Every Belgian company files its workforce by sex. We read five years of it for 817 ICT-sector employers across Brussels, Brabant and Leuven.",
+      standfirstA: "Every Belgian company files its workforce by sex. I read five years of it for 817 ICT-sector employers across Brussels, Brabant and Leuven.",
       standfirstB: "Women are 28% of staff and 2.5 times more likely than their male colleagues to be working part-time.",
       noteBcr: "",
       noteMetro: "",
@@ -1457,7 +1457,7 @@
         + "National Bank each year. This map reads five years of those filings \u2014 not a "
         + "survey, not estimates.</p>"
 
-        + "<h4>The 14 activity codes we used</h4>" + CODE_TABLE
+        + "<h4>The 14 activity codes I used</h4>" + CODE_TABLE
         + "<p><b>Not included:</b> 63910 and 63920 (web portals and \u201cother information "
         + "services\u201d) \u2014 catch-alls holding a call centre, a printer and a charity. "
         + "Book and newspaper publishing, and non-computing electronics such as clocks and "
