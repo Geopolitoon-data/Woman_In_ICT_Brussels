@@ -32,6 +32,7 @@
     en: {
       dept: "Data journalism",
       kicker: "Women on Belgian ICT payrolls · five years of filed accounts",
+      heroMapBtn: "Jump to the interactive map",
       title: "The Classroom Is Changing Faster Than the Office",
       standfirst: "Every company in Belgium has to report how many men and how many women it employs. We read five years of those reports for {companies} technology employers around Brussels. Women are {share}% of the people on their payrolls, and that is the kindest number in this study.",
       bylineSrc: "Source · National Bank of Belgium, Eurostat",
@@ -202,6 +203,7 @@
     fr: {
       dept: "Journalisme de données",
       kicker: "Les femmes dans les effectifs TIC belges · cinq ans de comptes déposés",
+      heroMapBtn: "Aller à la carte interactive",
       title: "Les études changent plus vite que les entreprises",
       standfirst: "Chaque entreprise belge doit déclarer combien d'hommes et de femmes elle emploie. Nous avons lu cinq ans de ces déclarations pour {companies} employeurs technologiques autour de Bruxelles. Les femmes représentent {share} % des personnes qu'ils emploient, et c'est le chiffre le plus flatteur de cette étude.",
       bylineSrc: "Sources · Banque nationale de Belgique, Eurostat",
@@ -1138,6 +1140,13 @@
     ["en", "fr"].forEach(function (L) {
       d3.select("#lang-" + L).on("click", function () { LANG = L; render(); });
     });
+    var skip = document.getElementById("skiptomap");
+    if (skip) {
+      skip.addEventListener("click", function () {
+        var target = document.getElementById("mapfinale");
+        if (target) target.scrollIntoView({ behavior: "instant", block: "start" });
+      });
+    }
     window.addEventListener("resize", function () {
       FIG.funnel();
       FIG.frame();
