@@ -160,6 +160,7 @@
   #dist .handle{fill:var(--gold)}
   #dist .axis{fill:var(--ink-3);font-family:var(--mono);font-size:8px}
   .rangeval{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:5px}
+  .rangebtns{display:flex;gap:6px}
   .rangeval span{font-family:var(--mono);font-size:10.5px;color:var(--gold)}
   .rangeval .chip{padding:2px 7px;font-size:10.5px}
 
@@ -390,8 +391,9 @@
         <div class="rangefilter">
           <div class="disthint" data-i18n="distHint"></div>
           <svg id="dist" viewBox="0 0 180 54" width="180" height="54"></svg>
-          <div class="rangeval"><span id="rangetext"></span><button id="rangeclear"
-               class="chip" data-i18n="rangeAll"></button></div>
+          <div class="rangeval"><span id="rangetext"></span><span class="rangebtns"><button id="rangetop"
+               class="chip" data-i18n="topOnly"></button><button id="rangeclear"
+               class="chip" data-i18n="rangeAll"></button></span></div>
         </div>
       </div>
       <div class="tip" id="tip"></div>
@@ -410,6 +412,6 @@
 </div>
 
 <script src="./d3.v7.min.js"></script>
-<script src="./map.js?v=3"></script>
+<script src="./map.js?v=4"></script>
 </body>
 </html>

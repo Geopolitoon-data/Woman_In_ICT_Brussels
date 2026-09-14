@@ -51,7 +51,7 @@
       ptMenMore: "Ce sont les hommes qui travaillent le plus à temps partiel ici.",
 
       legendEvo: "Évolution de la part des femmes (points)",
-      rangeAll: "Tout", rangeShown: "affichées",
+      rangeAll: "Tout", topOnly: "≥ 50 %", rangeShown: "affichées",
       men: "Hommes", women: "Femmes", total: "Total",
       theCompany: "l’entreprise", oneWoman: "femme", manyWomen: "femmes",
       oneMan: "homme", manyMen: "hommes",
@@ -121,7 +121,7 @@
       ptMenMore: "Here it is the men who work part-time more often.",
 
       legendEvo: "Change in female share (points)",
-      rangeAll: "All", rangeShown: "shown",
+      rangeAll: "All", topOnly: "≥ 50%", rangeShown: "shown",
       men: "Men", women: "Women", total: "Total",
       theCompany: "the company", oneWoman: "woman", manyWomen: "women",
       oneMan: "man", manyMen: "men",
@@ -1296,9 +1296,15 @@
   function paintRangeText() {
     var dom = activeDomain(), lo = dom[0], hi = dom[dom.length - 1];
     var r = state.range;
+    var isTop = !!(r && r[0] === 50 && r[1] === 100);
     d3.select("#rangetext").text(
-      r ? fmtVal(r[0]) + " \u2192 " + fmtVal(r[1]) : fmtVal(lo) + " \u2192 " + fmtVal(hi));
+      isTop ? "≥ 50%"
+      : r ? fmtVal(r[0]) + " → " + fmtVal(r[1])
+      : fmtVal(lo) + " → " + fmtVal(hi));
     d3.select("#rangeclear").style("visibility", r ? "visible" : "hidden");
+    d3.select("#rangetop")
+      .style("display", state.metric === "share" ? null : "none")
+      .attr("aria-pressed", isTop ? "true" : "false");
   }
 
   function countShown() {
@@ -1721,6 +1727,11 @@
 
   d3.select("#rangeclear").on("click", function () {
     state.range = null; paintLegend(); render();
+  });
+  d3.select("#rangetop").on("click", function () {
+    var isTop = state.range && state.range[0] === 50 && state.range[1] === 100;
+    state.range = isTop ? null : [50, 100];   // only companies at or above 50% women
+    paintLegend(); render();
   });
   d3.select("#about").on("click", function () { openSheet(aboutHtml()); });
   d3.select("#measurehelp").on("click", function () { openSheet(measureHtml()); });
