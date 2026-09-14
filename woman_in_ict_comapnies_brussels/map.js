@@ -44,7 +44,7 @@
       segOverview: "Aperçu", colMen: "Hommes",
       bestHere: "Les plus paritaires", worstHere: "Les moins paritaires",
       allHere: "Toutes les entreprises", ptShareHere: "Part des femmes parmi les temps partiels",
-      medianHere: "Part médiane des femmes", evoHere: "Évolution médiane",
+      medianHere: "Part des femmes", evoHere: "Évolution médiane",
       ofWhichWomen: "Dont femmes",
       sizeLegend: "Taille du point\u202f= effectif de l\u2019entreprise",
       ptTimes: "fois plus souvent", ptEqual: "Hommes et femmes recourent au temps partiel dans les mêmes proportions.",
@@ -80,7 +80,7 @@
       overview: "Vue d'ensemble",
       overviewSub: "Entreprises de 10 salariés ou plus",
       companies: "Entreprises", records: "Observations", communes: "Communes cartographiées",
-      medianShare: "Part médiane des femmes",
+      medianShare: "Part des femmes",
       largest: "Plus gros employeurs",
       best: "Part des femmes la plus élevée",
       worst: "Part des femmes la plus faible",
@@ -114,7 +114,7 @@
       segOverview: "Overview", colMen: "Men",
       bestHere: "Most balanced here", worstHere: "Least balanced here",
       allHere: "All companies", ptShareHere: "Women as a share of part-timers",
-      medianHere: "Median female share", evoHere: "Median evolution",
+      medianHere: "Female share", evoHere: "Median evolution",
       ofWhichWomen: "of whom women",
       sizeLegend: "Dot size = number of staff",
       ptTimes: "as likely to work part-time", ptEqual: "Men and women here take part-time work at the same rate.",
@@ -151,7 +151,7 @@
       overview: "Overview",
       overviewSub: "Companies of 10 staff or more",
       companies: "Companies", records: "Records", communes: "Communes mapped",
-      medianShare: "Median female share",
+      medianShare: "Female share",
       largest: "Largest employers",
       best: "Highest female share",
       worst: "Lowest female share",
@@ -290,7 +290,7 @@
       var e = c.evolution;
       return (e && e.n >= D.meta.min_year) ? e.median : null;
     }
-    return y.median;
+    return y.share;
   }
 
   function firmValue(h, f) {
@@ -417,7 +417,7 @@
      [t("communes"), mapped.length],
      [t("staffTotal"), Math.round(staff).toLocaleString(state.lang)],
      [t("womenTotal"), Math.round(women).toLocaleString(state.lang)],
-     [t("medianShare"), fmtPc(d3.median(shares)), true]
+     [t("medianShare"), fmtPc(staff ? women / staff * 100 : 0), true]
     ].forEach(function (r) {
       var s = side.append("div").attr("class", "stat");
       s.append("div").attr("class", "k").text(r[0]);
@@ -532,10 +532,12 @@
   function areaTrend(live) {
     var W = 296, H = 92, PAD = { t: 16, r: 48, b: 24, l: 24 };
     var pts = YEARS.map(function (y) {
-      var vals = D.companies.filter(function (f) {
+      var here = D.companies.filter(function (f) {
         return inScope(f) && state.families.has(f.family) && f.history[y];
-      }).map(function (f) { return f.history[y].share; });
-      return vals.length ? { y: y, v: d3.median(vals) } : null;
+      });
+      var w = d3.sum(here, function (f) { return f.history[y].wh || 0; });
+      var m = d3.sum(here, function (f) { return f.history[y].mh || 0; });
+      return (w + m) ? { y: y, v: w / (w + m) * 100 } : null;
     }).filter(Boolean);
     var svgEl = d3.create("svg").attr("class", "spark")
       .attr("viewBox", "0 0 " + W + " " + H).attr("width", "100%");
@@ -619,7 +621,7 @@
         el.append("div").attr("class", "v " + cell[2])
           .text(Math.round(cell[1]).toLocaleString(state.lang));
       });
-    statRow(seg1, t("medianHere"), fmtPc(d3.median(shares)), "gold");
+    statRow(seg1, t("medianHere"), fmtPc(staff ? women / staff * 100 : 0), "gold");
     if (evos.length) {
       var me = d3.median(evos);
       statRow(seg1, t("evoHere"),
@@ -1484,20 +1486,19 @@
         + "<p>The shortfall is 212 companies that carry these activities only under the older NACE 2008 coding: 114 in Brussels, 42 around Leuven, 28 in each Brabant. It is proportional to size, so it does not favour one area over another.</p>"
         + "<h4>What it shows</h4>"
         + "<p>Employers at their most recent filing, placed in the commune where they are "
-        + "registered. Communes show the median of their companies.</p>"
+        + "registered. Communes show the share of women across their ICT staff.</p>"
 
         + "<h4>What it cannot show</h4>"
         + "<ul><li><b>Not roles</b></li><li><b>Not pay or seniority</b></li>"
         + "<li><b>Not street addresses</b></li><li><b>Not all of Belgium</b></li></ul>",
 
       m_share: "<h3>Female share</h3>"
-        + "<p>Women as a share of the workforce, counted in <b>full-time equivalents</b>.</p>"
-        + "<p>Part-time staff are included \u2014 they count for the hours they work. Someone "
-        + "on a half-time contract counts as half a person, so this measures hours rather than "
-        + "heads. A company where many women work part-time therefore shows a lower share here "
-        + "than a simple headcount would give.</p>"
+        + "<p>Women as a share of the workforce, counted in <b>people</b>.</p>"
+        + "<p>Everyone on the payroll counts once, whether they work five days a week or two. "
+        + "So this answers one question only: how many of the people here are women. How those "
+        + "people split their hours is a separate question, and the part-time view answers it.</p>"
         + "<p><b>Read it as:</b> red is few women, green approaches balance. A commune shows the "
-        + "median of its companies, so one giant employer cannot swing it.</p>",
+        + "share of women across all its ICT staff.</p>",
 
       m_parttime: "<h3>Part-time gap</h3>"
         + "<p>Who does the part-time work, inside a single company \u2014 the share of women "
@@ -1571,9 +1572,7 @@
       + "<p>Le manque porte sur 212 entreprises dont ces activit\u00e9s ne figurent que sous l\u2019ancien code NACE 2008\u202f: 114 \u00e0 Bruxelles, 42 autour de Louvain, 28 dans chaque Brabant. Il est proportionnel \u00e0 la taille de chaque zone.</p>"
       + "<h4>Ce que la carte montre</h4>"
       + "<p>Des employeurs, \u00e0 leur dernier d\u00e9p\u00f4t, situ\u00e9s dans la commune de "
-      + "leur si\u00e8ge social. Une commune affiche la m\u00e9diane de ses entreprises, pas un "
-      + "total\u202f: un tr\u00e8s gros employeur ne peut donc pas la faire basculer \u00e0 lui "
-      + "seul.</p>"
+      + "leur si\u00e8ge social. Une commune affiche la part des femmes parmi tout son personnel TIC.</p>"
 
       + "<h4>Ce qu\u2019elle ne montre pas</h4>"
       + "<ul><li><b>Pas les m\u00e9tiers</b></li><li><b>Ni salaires, ni anciennet\u00e9</b></li>"
@@ -1586,7 +1585,7 @@
       + "combien de ces personnes sont des femmes. La répartition des heures est une "
       + "autre question, traitée par la vue temps partiel.</p>"
       + "<p><b>\u00c0 lire ainsi\u202f:</b> le rouge signale peu de femmes, le vert s\u2019approche "
-      + "de la parit\u00e9. Une commune affiche la m\u00e9diane de ses entreprises.</p>",
+      + "de la parit\u00e9. Une commune affiche la part des femmes parmi son personnel TIC.</p>",
 
     m_parttime: "<h3>\u00c9cart temps partiel</h3>"
       + "<p>Qui assume le temps partiel dans une m\u00eame entreprise\u202f: la part des femmes "
@@ -1761,7 +1760,7 @@
   }
 
   tip = d3.select("#tip");
-  d3.json("./bxl-data.json").then(build).catch(function (err) {
+  d3.json("./bxl-data.json?v=2").then(build).catch(function (err) {
     d3.select("#side").html("<h2>Data failed to load</h2><p class='sub'>" +
       err.message + "</p>");
     console.error(err);
