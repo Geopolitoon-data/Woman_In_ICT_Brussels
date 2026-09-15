@@ -6170,6 +6170,89 @@
    "d": "62"
   }
  ],
+ "women_bands": [
+  {
+   "lo": 0,
+   "hi": 10,
+   "firms": 91,
+   "women": 101,
+   "pct": 0.7
+  },
+  {
+   "lo": 10,
+   "hi": 20,
+   "firms": 172,
+   "women": 1672,
+   "pct": 11.7
+  },
+  {
+   "lo": 20,
+   "hi": 30,
+   "firms": 218,
+   "women": 4577,
+   "pct": 31.9
+  },
+  {
+   "lo": 30,
+   "hi": 40,
+   "firms": 130,
+   "women": 4096,
+   "pct": 28.6
+  },
+  {
+   "lo": 40,
+   "hi": 50,
+   "firms": 86,
+   "women": 2148,
+   "pct": 15.0
+  },
+  {
+   "lo": 50,
+   "hi": 100,
+   "firms": 120,
+   "women": 1748,
+   "pct": 12.2
+  }
+ ],
+ "women_balanced_pct": 12,
+ "women_malemaj_pct": 88,
+ "women_2040_pct": 60,
+ "lb_share_size": 17,
+ "lb_women_size": 902,
+ "lb_overlap": 0,
+ "top10_women_pct": 29,
+ "ceil_small": 100,
+ "ceil_mid": 69,
+ "ceil_big": 48,
+ "vol_small": 5.4,
+ "vol_big": 2.0,
+ "cone_giants": [
+  {
+   "n": "ORANGE BELGIUM",
+   "s": 33.0,
+   "h": 2367
+  },
+  {
+   "n": "SMALS",
+   "s": 26.5,
+   "h": 2350
+  },
+  {
+   "n": "CAPGEMINI BELGIUM",
+   "s": 31.2,
+   "h": 1772
+  },
+  {
+   "n": "Sopra Steria Belgium",
+   "s": 25.4,
+   "h": 1686
+  },
+  {
+   "n": "ODOO",
+   "s": 27.6,
+   "h": 1415
+  }
+ ],
  "funnel": [
   {
    "n": 25710,

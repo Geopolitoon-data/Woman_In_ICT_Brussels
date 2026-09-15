@@ -161,14 +161,44 @@
       nMech3: "The three groups use different conditions, so a company falls into at most one.",
       a6p2: "Step back from the examples and the striking thing is how little moves at all. Of the {withHistory} employers with a history, {evoWithin2} of them, {evoWithin2pc}%, ended within two percentage points of where they started. At the rate the {panelFirms} companies I can follow are actually moving, simple arithmetic puts an even split about {yearsToParity} years away. That describes the present pace. It is not a prediction.",
 
-      /* ---- 07 */
-      /* ---- 06 · in closing */
-      a8n: "06 · In closing",
+      /* ---- 06 · the small-company trick */
+      a9cn: "06 · ",
+      a9ch: "The percentage is a small-company trick",
+      a9clede: "Say you wanted to find the best tech companies for women, so you ranked every firm by its share of women. The list you would get is almost useless. Scroll down and see why.",
+      six0: { label: "Why the ranking lies",
+              big: "17 staff",
+              p: "The companies with the highest share of women are tiny: about 17 people each. A shop with 3 women and 2 men is 60% female and jumps straight to the top, ahead of every big employer. In the chart, each dot is a company. The ones packed with women, high up, are nearly all small: they sit on the far left." },
+      six1: { label: "The bigger they get, the lower the ceiling",
+              big: "{ceilSmall}% → {ceilBig}%",
+              p: "Line the companies up by size. Their average share of women hardly changes (around {size0}%, {size1}%, {size2}%). But the most any single company reaches falls fast: {ceilSmall}% among the smallest, only {ceilBig}% among the biggest. Large companies simply never get very female." },
+      six2: { label: "First, the whole workforce",
+              big: "{shareR} in 100",
+              p: "So forget the companies and count the people. Out of every 100 working in these firms, {shareR} are women. This is the number that actually matters, and the next two cards show where those women end up." },
+      six3: { label: "Almost all are outnumbered",
+              big: "{wMaleMaj} in 100",
+              p: "Line up 100 women by the company that employs them. {wMaleMaj} of them work somewhere men are the majority. Being outnumbered at work is not the exception here. It is the ordinary case." },
+      six4: { label: "The even workplaces barely exist",
+              big: "{wBalanced} in 100",
+              p: "And the balanced companies everyone points to? Just {wBalanced} women in 100 work somewhere at least half female. They are real, but they are small, and almost no one is in them." },
+      six0T: "Every company, by size and share of women", six0S: "817 companies. Left is small, right is big; up is more female. The line is 50%.",
+      six1T: "Share of women by company size", six1S: "Bars are the average; the green mark is the highest any single company reaches.",
+      six2T: "Every 100 people on the payrolls", six2S: "Each box is one person in a hundred; filled boxes are women.",
+      six3T: "Every 100 women, by where they work", six3S: "Each box is one woman, coloured by her employer's share of women. Checkmarks are the male-majority companies (under 50%).",
+      six4T: "Every 100 women, by where they work", six4S: "The same 100 women, same colours. Checkmarks are the companies at least half female (50%+).",
+      nSix0: "Size is on a log scale, so a small firm and a giant both stay readable on one axis.",
+      nSix1: "Same size groups as the earlier chart. The average is per person; the ceiling is the single highest company in the group.",
+      nSix2: "{staff} people in total. Each box is one percent, rounded to the nearest whole.",
+      nSix3: "Each woman is counted once, in the company that employs her. Male-majority means under 50% female. Boxes rounded to the nearest whole percent of {womenN}.",
+      nSix4: "Same 100 women. At least half female means a share of 50% or more.",
+      a9cp3: "The even workplaces are real. They are just small, and almost no one is in them. Ranking companies by their share of women rewards being tiny, not being fair, and where the women actually work has barely shifted in five years.",
+
+      /* ---- 07 · in closing */
+      a8n: "07 · In closing",
       a8h: "What five years of filings settle, and what they leave open",
       a8lede: "This study can be pushed no further than its source allows. Here is the edge of it.",
-      a8p1: "Start with what is not in doubt, because it is arithmetic on figures the companies published themselves. Women are {share}% of the people employed by {companies} ICT employers around Brussels. That figure does not move when you cut it by activity, where the five families span {sectorSpread} percentage points, nor by size, where the three classes span {sizeSpread} and do not even fall in order. At the {panelFirms} employers I can follow from {y0} to {y1} it rose {panelDelta} points. It is low, it is flat, and it is flat everywhere.",
+      a8p1: "Start with what is not in doubt, because it is arithmetic on figures the companies published themselves. Women are {share}% of the people employed by {companies} ICT employers around Brussels. That figure does not move when you cut it by activity, where the five families span {sectorSpread} percentage points, nor by size, where the three classes span {sizeSpread} and do not even fall in order. And it is concentrated: {wMaleMaj}% of these women work in a firm where they are outnumbered. At the {panelFirms} employers I can follow from {y0} to {y1} it rose {panelDelta} points. It is low, it is flat, and it is flat everywhere.",
       a8h1: "What the filings settle",
-      a8p2: "Three things. First, that the shortage of women is not confined to one corner of the sector: every family and every size class sits within a few points of the same low number. Second, that the movement which does exist is slow, about {panelPerYear} of a point a year, the sort of rate that needs decades rather than budgets. Third, and least comfortable, that a company's percentage going up is not evidence it hired anyone: {mechFlat} employers improved theirs while employing no more women than before.",
+      a8p2: "Four things. First, that the shortage of women is not confined to one corner of the sector: every family and every size class sits within a few points of the same low number. Second, that the movement which does exist is slow, about {panelPerYear} of a point a year, the sort of rate that needs decades rather than budgets. Third, and least comfortable, that a company's percentage going up is not evidence it hired anyone: {mechFlat} employers improved theirs while employing no more women than before. Fourth, that a high percentage is usually just a small company. The firms that top a female-share ranking average {lbShareSize} staff, they share no names with the firms that actually employ the most women, and only {wBalanced}% of all the women in the study work somewhere at least half female. The leaderboard measures size, not opportunity.",
       a8h2: "What they leave open",
       a8p3: "Everything about why. The filings carry no job titles, so they cannot say whether women are absent from technical roles or spread thinly across all of them. They carry no pay and no seniority, so they cannot say who is progressing. They count heads at a closing date, so they cannot say who left during the year, or why. Anyone claiming to know those things from this source is guessing, and I would rather say so than guess alongside them.",
       a8last: "One thing worth watching",
@@ -326,12 +356,43 @@
       nMech3: "Les trois groupes reposent sur des conditions différentes : une entreprise ne relève que d'un seul au plus.",
       a6p2: "En s'éloignant des exemples, le plus frappant est le peu de mouvement. Sur les {withHistory} employeurs ayant un historique, {evoWithin2}, soit {evoWithin2pc} %, ont fini à moins de deux points de leur point de départ. Au rythme réel des {panelFirms} entreprises que je peux suivre, un simple calcul place le partage à égalité dans environ {yearsToParity} ans. Cela décrit le rythme actuel. Ce n'est pas une prévision.",
 
-      a8n: "06 · Pour finir",
+      /* ---- 06 · le tour de passe-passe des petites structures */
+      a9cn: "06 · ",
+      a9ch: "Le pourcentage est un tour de passe-passe de petite entreprise",
+      a9clede: "Imaginez chercher les meilleures entreprises tech pour les femmes en classant chaque firme par sa part de femmes. La liste obtenue serait presque inutile. Faites défiler pour voir pourquoi.",
+      six0: { label: "Pourquoi le classement ment",
+              big: "17 salariés",
+              p: "Les entreprises à la plus forte part de femmes sont minuscules : environ 17 personnes. Une boîte de 3 femmes et 2 hommes est féminine à 60 % et bondit en tête, devant tous les grands employeurs. Sur le graphique, chaque point est une entreprise. Celles pleines de femmes, en haut, sont presque toutes petites : elles sont tout à gauche." },
+      six1: { label: "Plus elles grossissent, plus le plafond baisse",
+              big: "{ceilSmall} % → {ceilBig} %",
+              p: "Rangez les entreprises par taille. Leur part moyenne de femmes change à peine (autour de {size0} %, {size1} %, {size2} %). Mais le maximum atteint par une seule entreprise chute : {ceilSmall} % chez les plus petites, seulement {ceilBig} % chez les plus grandes. Les grandes n'atteignent jamais une forte part féminine." },
+      six2: { label: "D'abord, tout l'effectif",
+              big: "{shareR} sur 100",
+              p: "Oubliez donc les entreprises et comptez les personnes. Sur 100 qui travaillent dans ces firmes, {shareR} sont des femmes. C'est le chiffre qui compte vraiment, et les deux cartes suivantes montrent où ces femmes atterrissent." },
+      six3: { label: "Presque toutes sont minoritaires",
+              big: "{wMaleMaj} sur 100",
+              p: "Alignez 100 femmes selon l'entreprise qui les emploie. {wMaleMaj} d'entre elles travaillent là où les hommes sont majoritaires. Être minoritaire au travail n'est pas l'exception ici. C'est le cas ordinaire." },
+      six4: { label: "Les lieux équilibrés n'existent presque pas",
+              big: "{wBalanced} sur 100",
+              p: "Et les entreprises équilibrées que tout le monde cite ? À peine {wBalanced} femmes sur 100 travaillent dans un lieu au moins à moitié féminin. Elles existent, mais elles sont petites, et presque personne n'y travaille." },
+      six0T: "Chaque entreprise, par taille et part de femmes", six0S: "817 entreprises. À gauche les petites, à droite les grandes ; en haut, plus féminines. La ligne est à 50 %.",
+      six1T: "Part de femmes selon la taille", six1S: "Les barres sont la moyenne ; le repère vert est le maximum atteint par une seule entreprise.",
+      six2T: "Sur 100 personnes des masses salariales", six2S: "Chaque case est une personne sur cent ; les cases pleines sont des femmes.",
+      six3T: "Sur 100 femmes, selon leur lieu de travail", six3S: "Chaque case est une femme, colorée selon la part de femmes de son employeur. Les coches sont les entreprises à majorité masculine (moins de 50 %).",
+      six4T: "Sur 100 femmes, selon leur lieu de travail", six4S: "Les mêmes 100 femmes, mêmes couleurs. Les coches sont les entreprises au moins à moitié féminines (50 %+).",
+      nSix0: "Taille en échelle log, pour qu'une petite firme et une géante restent lisibles sur le même axe.",
+      nSix1: "Mêmes groupes de taille que le graphique précédent. La moyenne est par personne ; le plafond est l'entreprise la plus haute du groupe.",
+      nSix2: "{staff} personnes au total. Chaque case vaut un pourcent, arrondi à l'entier.",
+      nSix3: "Chaque femme comptée une fois, dans l'entreprise qui l'emploie. Majorité masculine : moins de 50 % de femmes. Cases arrondies au pourcent entier de {womenN}.",
+      nSix4: "Mêmes 100 femmes. Au moins à moitié féminine : une part de 50 % ou plus.",
+      a9cp3: "Les lieux équilibrés existent. Ils sont juste petits, et presque personne n'y travaille. Classer les entreprises par part de femmes récompense la petite taille, pas l'équité, et l'endroit où les femmes travaillent réellement n'a presque pas bougé en cinq ans.",
+
+      a8n: "07 · Pour finir",
       a8h: "Ce que cinq ans de dépôts tranchent, et ce qu'ils laissent ouvert",
       a8lede: "Cette étude ne peut pas aller plus loin que sa source. Voici où elle s'arrête.",
-      a8p1: "Commençons par ce qui ne fait pas de doute, parce qu'il s'agit d'arithmétique sur des chiffres publiés par les entreprises elles-mêmes. Les femmes représentent {share} % des personnes employées par {companies} employeurs TIC autour de Bruxelles. Ce chiffre ne bouge pas quand on le découpe par activité, où les cinq familles tiennent dans {sectorSpread} points, ni par taille, où les trois classes tiennent dans {sizeSpread} points sans même se ranger dans l'ordre. Chez les {panelFirms} employeurs suivis de {y0} à {y1}, il a gagné {panelDelta} points. Il est bas, il est plat, et il est plat partout.",
+      a8p1: "Commençons par ce qui ne fait pas de doute, parce qu'il s'agit d'arithmétique sur des chiffres publiés par les entreprises elles-mêmes. Les femmes représentent {share} % des personnes employées par {companies} employeurs TIC autour de Bruxelles. Ce chiffre ne bouge pas quand on le découpe par activité, où les cinq familles tiennent dans {sectorSpread} points, ni par taille, où les trois classes tiennent dans {sizeSpread} points sans même se ranger dans l'ordre. Et il est concentré : {wMaleMaj} % de ces femmes travaillent dans une firme où elles sont minoritaires. Chez les {panelFirms} employeurs suivis de {y0} à {y1}, il a gagné {panelDelta} points. Il est bas, il est plat, et il est plat partout.",
       a8h1: "Ce que les dépôts tranchent",
-      a8p2: "Trois choses. D'abord que le manque de femmes ne se loge pas dans un coin du secteur : chaque famille et chaque classe de taille se tient à quelques points du même chiffre bas. Ensuite que le mouvement existant est lent, environ {panelPerYear} point par an, un rythme qui se compte en décennies plutôt qu'en budgets. Enfin, et c'est le moins confortable, qu'un pourcentage en hausse ne prouve aucun recrutement : {mechFlat} employeurs ont amélioré le leur sans employer une femme de plus.",
+      a8p2: "Quatre choses. D'abord que le manque de femmes ne se loge pas dans un coin du secteur : chaque famille et chaque classe de taille se tient à quelques points du même chiffre bas. Ensuite que le mouvement existant est lent, environ {panelPerYear} point par an, un rythme qui se compte en décennies plutôt qu'en budgets. Puis, et c'est le moins confortable, qu'un pourcentage en hausse ne prouve aucun recrutement : {mechFlat} employeurs ont amélioré le leur sans employer une femme de plus. Enfin, qu'une part élevée n'est en général qu'une petite entreprise. Les firmes en tête d'un classement par part féminine comptent en moyenne {lbShareSize} salariés, ne partagent aucun nom avec celles qui emploient réellement le plus de femmes, et seules {wBalanced} % des femmes de l'étude travaillent dans un lieu au moins à moitié féminin. Le classement mesure la taille, pas les débouchés.",
       a8h2: "Ce qu'ils laissent ouvert",
       a8p3: "Tout ce qui touche au pourquoi. Les dépôts ne portent aucun intitulé de poste : impossible de dire si les femmes sont absentes des rôles techniques ou réparties en petit nombre sur tous. Ils ne portent ni salaire ni ancienneté : impossible de dire qui progresse. Ils comptent des têtes à une date de clôture : impossible de dire qui est parti en cours d'année, ni pourquoi. Quiconque prétend le savoir à partir de cette source devine, et je préfère le dire plutôt que deviner avec lui.",
       a8last: "Une chose à surveiller",
@@ -380,7 +441,10 @@
       tblExtremes: "Employers of 100 staff or more: the two ends",
       blockBest: "Highest female share", blockWorst: "Lowest female share",
       famFirms: "companies", famStaff: "people", femaleShare: "female share",
-      belowTen: "below 10% women"
+      belowTen: "below 10% women",
+      parityPlus: "50% or more", midBand: "10 to 50%",
+      nCone: "One dot per employer. Size on a log scale so a hire that moves a five-person firm is visible against one that barely dents a two-thousand-person one. The five labelled dots are the largest employers.",
+      nWomen: "Each woman is counted once, in the share band of the company that employs her. Bands are the female share of that firm; the widths add to 100% of the {womenN} employed women."
     },
     fr: {
       men: "Hommes", women: "Femmes", allStaff: "Effectif total",
@@ -398,7 +462,10 @@
       tblExtremes: "Employeurs de 100 salariés ou plus : les deux extrêmes",
       blockBest: "Part féminine la plus élevée", blockWorst: "Part féminine la plus faible",
       famFirms: "entreprises", famStaff: "personnes", femaleShare: "part féminine",
-      belowTen: "sous 10 % de femmes"
+      belowTen: "sous 10 % de femmes",
+      parityPlus: "50 % ou plus", midBand: "10 à 50 %",
+      nCone: "Un point par employeur. Taille en échelle log, pour qu'une embauche qui bouge une firme de cinq personnes reste visible face à une qui entame à peine une firme de deux mille. Les cinq points nommés sont les plus gros employeurs.",
+      nWomen: "Chaque femme est comptée une fois, dans la tranche de part de l'entreprise qui l'emploie. Les tranches sont la part féminine de la firme ; les largeurs totalisent 100 % des {womenN} femmes employées."
     }
   };
   Object.keys(EXTRA).forEach(function (L) {
@@ -504,7 +571,14 @@
       clusterN: nf(A.cluster_n), clusterPc: nf(A.cluster_pc),
       q1: nf(A.q1, 1), q3: nf(A.q3, 1),
       gradTimesN: nf(A.grad_rate.times, A.grad_rate.times % 1 ? 1 : 0),
-      yNext: String(Number(A.years[A.years.length - 1]) + 1)
+      yNext: String(Number(A.years[A.years.length - 1]) + 1),
+      womenN: nf(A.women),
+      wBalanced: nf(A.women_balanced_pct), wMaleMaj: nf(A.women_malemaj_pct),
+      w2040: nf(A.women_2040_pct),
+      lbShareSize: nf(A.lb_share_size), lbWomenSize: nf(A.lb_women_size),
+      lbOverlap: nf(A.lb_overlap), top10Women: nf(A.top10_women_pct),
+      ceilSmall: nf(A.ceil_small), ceilMid: nf(A.ceil_mid), ceilBig: nf(A.ceil_big),
+      volSmall: nf(A.vol_small, 1), volBig: nf(A.vol_big, 1)
     };
   }
 
@@ -563,7 +637,12 @@
           ["mx3.label", ["mx3.p1", "mx3.p2"]]],
     mech: [["mc1.label", ["mc1.big", "mc1.p1", "mc1.p2", "mc1.p3"]],
            ["mc2.label", ["mc2.big", "mc2.p1", "mc2.p2", "mc2.p3"]],
-           ["mc3.label", ["mc3.big", "mc3.p1", "mc3.p2", "mc3.p3"]]]
+           ["mc3.label", ["mc3.big", "mc3.p1", "mc3.p2", "mc3.p3"]]],
+    six: [["six0.label", ["six0.big", "six0.p"]],
+          ["six1.label", ["six1.big", "six1.p"]],
+          ["six2.label", ["six2.big", "six2.p"]],
+          ["six3.label", ["six3.big", "six3.p"]],
+          ["six4.label", ["six4.big", "six4.p"]]]
   };
 
   function buildSteps() {
@@ -959,6 +1038,214 @@
     });
     d3.select("#note-pt").html(t("nPt"));
   };
+
+  /* --- 06 the small-company trick, as one scrolly card ----------------- *
+   * A single sticky figure that steps through six measurable views:
+   *   0  a waffle of 100 people   (28 of them women)
+   *   1  every company, size against share  (high shares are small firms)
+   *   2  the ceiling by size class  (average flat, ceiling collapsing)
+   *   3-5  the SAME 100 women, re-highlighted: the crowded 20-40% middle (60),
+   *        then the male-majority group (88), then parity-or-more (12)
+   * Waffles are the through-line: each box is one in a hundred, so a reader
+   * can literally count the claim rather than take the percentage on trust.
+   * The three women steps share one grid so the hundred visibly regroups.
+   */
+  function sixBox(s, x, y, sz, fill, stroke, check, op, checkC) {
+    s.append("rect").attr("x", x).attr("y", y).attr("width", sz).attr("height", sz)
+      .attr("rx", 3).attr("fill", fill).attr("fill-opacity", op == null ? 1 : op)
+      .attr("stroke", stroke).attr("stroke-width", 1.1);
+    if (check) s.append("path")
+      .attr("d", "M" + (x + sz * 0.26) + "," + (y + sz * 0.52) +
+                 " L" + (x + sz * 0.44) + "," + (y + sz * 0.70) +
+                 " L" + (x + sz * 0.76) + "," + (y + sz * 0.30))
+      .attr("fill", "none").attr("stroke", checkC || "#fff").attr("stroke-width", 1.8)
+      .attr("stroke-linecap", "round").attr("stroke-linejoin", "round");
+  }
+
+  // a 10x10 grid; cats[k] = {fill, stroke, check, op, checkC} for the k-th box
+  function sixWaffle(s, W, cats, top, sz) {
+    var cols = 10; sz = sz || 26; var gap = 5, gw = cols * sz + (cols - 1) * gap;
+    var x0 = (W - gw) / 2;
+    cats.forEach(function (c, k) {
+      var col = k % cols, row = Math.floor(k / cols);
+      sixBox(s, x0 + col * (sz + gap), top + row * (sz + gap), sz,
+             c.fill, c.stroke, c.check, c.op, c.checkC);
+    });
+    return { x0: x0, gw: gw, bottom: top + 10 * sz + 9 * gap };
+  }
+
+  // a two-row legend of the six employer share-bands, each with its count, so
+  // "how many women work in a 0-10% firm, a 10-20% firm, ..." is spelled out
+  function sixBandLegend(s, W, top, colors, labs, counts) {
+    var cols = 3, cellW = (W - 24) / cols;
+    colors.forEach(function (c, i) {
+      var col = i % cols, row = Math.floor(i / cols);
+      var x = 12 + col * cellW, y = top + row * 22;
+      s.append("rect").attr("x", x).attr("y", y - 10).attr("width", 13).attr("height", 13)
+        .attr("rx", 2).attr("fill", c).attr("stroke", "#fff");
+      txt(s, x + 19, y, labs[i] + "% · " + counts[i], { s: 10.5, c: C.ink2, w: 600 });
+    });
+  }
+
+  function sixLegend(s, W, bottom, items) {
+    // one centred row of swatch + label, so the count is spelled out
+    var widths = items.map(function (it) { return 22 + it.lab.length * 6.0; });
+    var total = widths.reduce(function (a, b) { return a + b; }, 0) + (items.length - 1) * 22;
+    var cx = (W - total) / 2;
+    items.forEach(function (it, i) {
+      sixBox(s, cx, bottom - 12, 15, it.fill, it.stroke, it.check, it.op);
+      txt(s, cx + 21, bottom, it.lab, { s: 11, c: C.ink2, w: 600 });
+      cx += widths[i] + 22;
+    });
+  }
+
+  FIG.six = function (step) {
+    var s = svg("fig-six");
+    var W = 460, H = 400;
+    d3.select("#six-title").text(t("six" + step + "T"));
+    d3.select("#six-sub").text(t("six" + step + "S"));
+
+    if (step === 0) {
+      // 100 people: the first 28 are women (filled), the rest empty
+      var women = Math.round(A.share);
+      var cats = d3.range(100).map(function (k) {
+        return k < women
+          ? { fill: C.orange, stroke: C.orange, check: true }
+          : { fill: C.paper3, stroke: C.lineStrong, check: false };
+      });
+      var g0 = sixWaffle(s, W, cats, 34);
+      sixLegend(s, W, g0.bottom + 34, [
+        { fill: C.orange, stroke: C.orange, check: true,
+          lab: (LANG === "fr" ? "femmes · " : "women · ") + women },
+        { fill: C.paper3, stroke: C.lineStrong,
+          lab: (LANG === "fr" ? "hommes · " : "men · ") + (100 - women) }
+      ]);
+
+    } else if (step === 1) {
+      sixCone(s, W, H);
+
+    } else if (step === 2) {
+      sixCeiling(s, W, H);
+
+    } else {
+      // steps 3,4: the SAME 100 women, coloured by their employer's share-band so
+      // the full 0-10 / 10-20 / ... breakdown is visible at once. A checkmark marks
+      // the step's group (male-majority, then parity), which the reader can count.
+      var mode = step === 3 ? "male" : "parity";
+      var counts = [1, 12, 32, 28, 15, 12];   // women per band, sums to 100
+      var bandFill = ["#B7C6D6", "#8FA8C0", "#5E7E9E", "#3C5F81", C.navy, C.green];
+      var bandChk = [C.ink, C.ink, "#fff", "#fff", "#fff", "#fff"];
+      var bandLab = ["0-10", "10-20", "20-30", "30-40", "40-50", "50+"];
+      var cells = [];
+      A.women_bands.forEach(function (b, i) {
+        for (var n = 0; n < counts[i]; n++) cells.push(i);   // remember the band index
+      });
+      var cats2 = cells.map(function (bi) {
+        var lo = A.women_bands[bi].lo;
+        var on = mode === "parity" ? lo >= 50 : lo < 50;
+        return { fill: bandFill[bi], stroke: "#fff", check: on, checkC: bandChk[bi] };
+      });
+      var g3 = sixWaffle(s, W, cats2, 26, 24);
+      sixBandLegend(s, W, g3.bottom + 28, bandFill, bandLab, counts);
+    }
+    note("six", "nSix" + step);
+  };
+
+  // step 1: every employer, size (log) against share
+  function sixCone(s, W, H) {
+    var P = { l: 40, r: 16, t: 26, b: 58 };
+    var x = d3.scaleLog().domain([8, 2600]).range([P.l, W - P.r]).clamp(true);
+    var y = d3.scaleLinear().domain([0, 100]).range([H - P.b, P.t]);
+
+    [0, 25, 50, 75, 100].forEach(function (v) {
+      s.append("line").attr("x1", P.l).attr("x2", W - P.r)
+        .attr("y1", y(v)).attr("y2", y(v))
+        .attr("stroke", v === 50 ? C.green : C.line)
+        .attr("stroke-width", v === 50 ? 1.3 : 1)
+        .attr("stroke-dasharray", v === 50 ? "4 3" : null);
+      txt(s, P.l - 5, y(v) + 3, pc(v, 0), { a: "end", s: 8.5 });
+    });
+    txt(s, W - P.r, y(50) - 5, t("parity"), { a: "end", s: 9, c: C.green });
+
+    [10, 100, 1000].forEach(function (v) {
+      txt(s, x(v), H - P.b + 14, nf(v), { a: "middle", s: 8.5 });
+    });
+
+    function colour(d) {
+      if (d.s >= 50) return C.green;
+      if (d.s < 10) return C.orangeDeep;
+      return C.navySoft;
+    }
+    s.append("g").selectAll("circle")
+      .data(A.points.slice().sort(function (a, b) { return a.h - b.h; }))
+      .join("circle")
+      .attr("cx", function (d) { return x(d.h); })
+      .attr("cy", function (d) { return y(d.s); })
+      .attr("r", 2.3)
+      .attr("fill", function (d) { return colour(d); })
+      .attr("fill-opacity", 0.6);
+
+    // the two leaderboard averages, marked on the size axis they live on
+    [[A.lb_share_size, C.green, LANG === "fr" ? "tête du classement" : "top of the ranking"],
+     [A.lb_women_size, C.navy, LANG === "fr" ? "le plus de femmes" : "most women employed"]]
+      .forEach(function (m) {
+        var mx = x(m[0]);
+        s.append("line").attr("x1", mx).attr("x2", mx)
+          .attr("y1", H - P.b).attr("y2", H - P.b + 6)
+          .attr("stroke", m[1]).attr("stroke-width", 1.6);
+        txt(s, mx, H - P.b + 26, m[0] + (LANG === "fr" ? " sal." : " staff"),
+            { a: "middle", s: 9.5, w: 700, c: m[1] });
+        txt(s, mx, H - P.b + 37, m[2], { a: "middle", s: 8, c: C.ink3 });
+      });
+    txt(s, (P.l + W - P.r) / 2, H - 4,
+        LANG === "fr" ? "taille de l'entreprise (échelle log)"
+                      : "company size (log scale)",
+        { a: "middle", s: 8.5, c: C.ink2 });
+  }
+
+  // step 2: the ceiling by size class. average flat, ceiling collapsing.
+  function sixCeiling(s, W, H) {
+    var P = { l: 74, r: 52, t: 48 }, pitch = 92, barH = 26;
+    var x = d3.scaleLinear().domain([0, 100]).range([P.l, W - P.r]);
+    var classes = [
+      { lab: A.sizes[0].band, avg: A.sizes[0].share, ceil: A.ceil_small },
+      { lab: A.sizes[1].band, avg: A.sizes[1].share, ceil: A.ceil_mid },
+      { lab: A.sizes[2].band, avg: A.sizes[2].share, ceil: A.ceil_big }
+    ];
+    // 0-100 axis ticks
+    [0, 50, 100].forEach(function (v) {
+      s.append("line").attr("x1", x(v)).attr("x2", x(v)).attr("y1", P.t - 14)
+        .attr("y2", P.t + classes.length * pitch - pitch + barH + 8)
+        .attr("stroke", C.line);
+      txt(s, x(v), P.t - 20, pc(v, 0), { a: "middle", s: 8.5 });
+    });
+
+    classes.forEach(function (c, i) {
+      var yy = P.t + i * pitch;
+      txt(s, P.l - 8, yy + barH / 2 - 4, c.lab, { a: "end", s: 11, w: 700, c: C.ink });
+      txt(s, P.l - 8, yy + barH / 2 + 9,
+          LANG === "fr" ? "salariés" : "staff", { a: "end", s: 8, c: C.ink3 });
+      // the average, as a solid bar
+      s.append("rect").attr("x", x(0)).attr("y", yy)
+        .attr("width", x(c.avg) - x(0)).attr("height", barH).attr("fill", C.orange);
+      txt(s, x(c.avg) + 6, yy + barH / 2 + 5, pc(c.avg, 1),
+          { s: 11, w: 700, c: C.orangeDeep });
+      // the ceiling, as a marker the eye can track downward
+      s.append("line").attr("x1", x(c.ceil)).attr("x2", x(c.ceil))
+        .attr("y1", yy - 8).attr("y2", yy + barH + 8)
+        .attr("stroke", C.green).attr("stroke-width", 2);
+      txt(s, x(c.ceil), yy - 12, (LANG === "fr" ? "max " : "top ") + pc(c.ceil, 0),
+          { a: "middle", s: 9.5, w: 700, c: C.green });
+    });
+
+    var legY = P.t + classes.length * pitch - pitch + barH + 40;
+    sixLegend(s, W, legY, [
+      { fill: C.orange, stroke: C.orange,
+        lab: LANG === "fr" ? "part moyenne" : "average share" },
+      { fill: C.green, stroke: C.green,
+        lab: LANG === "fr" ? "plafond (max)" : "ceiling (highest)" }
+    ]);
+  }
 
   /* --- 05 sector, then size -------------------------------------------- */
   FIG.mix = function (step) {
