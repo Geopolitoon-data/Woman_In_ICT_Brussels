@@ -228,6 +228,14 @@
   /* a standalone figure, no scroll steps */
   .solo{margin:38px 0 0}
   .solo .figbox{max-width:100%}
+  /* text on the left, a compact figure on the right */
+  .sidefig{
+    display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;
+    margin:52px 0 0;
+  }
+  .sidefig .sidetext h3{margin-top:0}
+  .sidefig .sidetext p{margin-bottom:0}
+  @media (max-width:760px){ .sidefig{grid-template-columns:1fr;gap:22px} }
 
   /* ---------------- tables ---------------- */
   .tablewrap{overflow-x:auto;margin:34px 0 0}
@@ -462,23 +470,27 @@
 
   <!-- size, looked at two more ways: the scatter and the ceiling -->
   <section class="prose">
-    <h3 data-i18n="a5s1h"></h3>
-    <p data-i18n="a5s1p"></p>
-    <div class="solo">
+    <div class="sidefig">
+      <div class="sidetext">
+        <h3 data-i18n="a5s1h"></h3>
+        <p data-i18n="a5s1p"></p>
+      </div>
       <div class="figbox">
         <div class="figtitle" data-i18n="a5coneT"></div>
         <div class="figsub" data-i18n="a5coneS"></div>
-        <svg id="fig-a5cone" viewBox="0 0 860 430" role="img"></svg>
+        <svg id="fig-a5cone" viewBox="0 0 460 400" role="img"></svg>
         <div class="fignote" id="note-a5cone"></div>
       </div>
     </div>
-    <h3 style="margin-top:34px" data-i18n="a5s2h"></h3>
-    <p data-i18n="a5s2p"></p>
-    <div class="solo">
+    <div class="sidefig">
+      <div class="sidetext">
+        <h3 data-i18n="a5s2h"></h3>
+        <p data-i18n="a5s2p"></p>
+      </div>
       <div class="figbox">
         <div class="figtitle" data-i18n="a5ceilT"></div>
         <div class="figsub" data-i18n="a5ceilS"></div>
-        <svg id="fig-a5ceil" viewBox="0 0 860 315" role="img"></svg>
+        <svg id="fig-a5ceil" viewBox="0 0 460 330" role="img"></svg>
         <div class="fignote" id="note-a5ceil"></div>
       </div>
     </div>
@@ -517,8 +529,6 @@
     <p data-i18n="a8p2"></p>
     <h3 data-i18n="a8h2"></h3>
     <p data-i18n="a8p3"></p>
-    <p class="kicker" style="margin:42px 0 10px" data-i18n="a8last"></p>
-    <p class="closing" data-i18n="a8p4"></p>
   </section>
 
   <!-- ============ annex · the employers, named ============ -->
@@ -570,6 +580,6 @@
 <div class="wrap"><footer class="end"><span data-i18n="foot"></span></footer></div>
 
 <script src="./d3.v7.min.js"></script>
-<script src="./article.js?v=13"></script>
+<script src="./article.js?v=14"></script>
 </body>
 </html>

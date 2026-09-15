@@ -172,8 +172,8 @@
       a6p2: "Step back from the examples and the striking thing is how little moves at all. Of the {withHistory} employers with a history, {evoWithin2} of them, {evoWithin2pc}%, ended within two percentage points of where they started. At the rate the {panelFirms} companies I can follow are actually moving, simple arithmetic puts an even split about {yearsToParity} years away. That describes the present pace. It is not a prediction.",
 
       /* ---- 03 · where the women work (distribution) */
-      a9cn: "03 · ",
-      a9ch: "Where the women actually work",
+      a9cn: "03 · Where the women are",
+      a9ch: "Nine in ten work where they are outnumbered",
       a9clede: "That last chart placed every company by its share of women. Now turn it around and follow the women instead: take a hundred of them and sort each into the company that employs her. The grid fills as you scroll.",
 
       /* the 100-women waffle, filled band by band as the reader scrolls */
@@ -375,8 +375,8 @@
       a6p2: "En s'éloignant des exemples, le plus frappant est le peu de mouvement. Sur les {withHistory} employeurs ayant un historique, {evoWithin2}, soit {evoWithin2pc} %, ont fini à moins de deux points de leur point de départ. Au rythme réel des {panelFirms} entreprises que je peux suivre, un simple calcul place le partage à égalité dans environ {yearsToParity} ans. Cela décrit le rythme actuel. Ce n'est pas une prévision.",
 
       /* ---- 06 · le tour de passe-passe des petites structures */
-      a9cn: "03 · ",
-      a9ch: "Où travaillent réellement les femmes",
+      a9cn: "03 · Où sont les femmes",
+      a9ch: "Neuf sur dix travaillent là où elles sont minoritaires",
       a9clede: "Le graphique précédent plaçait chaque entreprise selon sa part de femmes. Renversons-le et suivons plutôt les femmes : prenez-en cent et rangez chacune dans l'entreprise qui l'emploie. La grille se remplit au défilement.",
 
       /* la grille de 100 femmes, remplie tranche par tranche au défilement */
@@ -1126,11 +1126,11 @@
   // the two size figures now live at the end of section 04; they are solo (not
   // stepped), and reuse the same scatter and ceiling drawings.
   FIG.a5cone = function () {
-    sixCone(svg("fig-a5cone"), 860, 430);
+    sixCone(svg("fig-a5cone"), 460, 400);
     d3.select("#note-a5cone").html(t("na5cone"));
   };
   FIG.a5ceil = function () {
-    sixCeiling(svg("fig-a5ceil"), 860, 300);
+    sixCeiling(svg("fig-a5ceil"), 460, 330);
     d3.select("#note-a5ceil").html(t("na5ceil"));
   };
 
